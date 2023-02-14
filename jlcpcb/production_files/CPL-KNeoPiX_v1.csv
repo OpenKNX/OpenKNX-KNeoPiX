@@ -1,0 +1,25 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0805_2012Metric,121.76,-103.33,-90.0,top
+C2,100nF,C_0805_2012Metric,116.94,-103.31,-90.0,top
+C3,100 nf 25V,C_0805_2012Metric,130.54,-113.86,0.0,top
+C4,10µf 16V,C_0805_2012Metric,133.97,-113.86,180.0,top
+C5,100nF,C_0805_2012Metric,119.28,-103.31,-90.0,top
+C6,100nF,C_0805_2012Metric,124.16,-103.33,90.0,top
+C7,100nF 16V - (X5R 0805),C_0805_2012Metric,130.37,-109.46,90.0,top
+D3,SMAJ40CA-13-F,D_SMA,117.4,-121.56,180.0,bottom
+GN1,OpenKNX_BCU,NanoBCU_PinSocket_LowProfile,113.3875,-109.89,180.0,top
+H1,243-131,243131,114.5,-124.15,0.0,top
+H2,243-131,243131,120.25,-124.15,0.0,top
+J1,Conn_KNX,KNX_Connector,118.18,-125.73,90.0,top
+J2,Conn_KNX,KNX_Connector_Light,118.2,-128.65,90.0,top
+J3,Screw_Terminal_01x09,"TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal",124.11,-97.74,180.0,top
+J4,Screw_Terminal_01x04,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",130.98,-127.58,0.0,top
+R1,0Ohm - TXRX Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,117.45,-116.54,0.0,top
+R2,0Ohm - RXTX Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,119.87,-116.54,0.0,top
+R3,0Ohm - D4 Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,125.1,-116.586,90.0,top
+R4,0Ohm - D5 Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,126.492,-116.586,90.0,top
+SW1,Prog BTN,SW_Push_1P1T_NO_CK_KMR2,134.61,-109.46,-90.0,top
+U1,Seeeduino XIAO,Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM-no-15-16-17-18-19-20-pad,114.9417,-118.3737,90.0,bottom
+U2,LM2937IMP-3.3 / 5.0,SOT-223-3_TabPin2,132.334,-119.55,90.0,top
+U3,ADuM1201AR / ADum1250,SOIC-8_3.9x4.9mm_P1.27mm,118.66,-116.585,-90.0,top
+U4,ADum1250,SOIC-8_3.9x4.9mm_P1.27mm,125.73,-116.586,90.0,top
