@@ -3,4 +3,5 @@
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/kneopix.pretty/Library.pretty")(options "")(descr ""))
   (lib (name "KNeoPix-Project")(type "KiCad")(uri "${KIPRJMOD}/kneopix.pretty/KNeoPix-Project.pretty")(options "")(descr ""))
   (lib (name "KNeoPix")(type "KiCad")(uri "${KIPRJMOD}/KNeoPix.pretty")(options "")(descr ""))
+  (lib (name "KNeoPix-Logo")(type "KiCad")(uri "${KIPRJMOD}/KNeoPix-Logo.pretty")(options "")(descr ""))
 )

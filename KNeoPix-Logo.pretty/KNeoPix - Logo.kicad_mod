@@ -1,0 +1,83 @@
+(footprint "KNeoPix - Logo" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0.05 -6.75 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ac0a0037-c199-448b-b35a-de71700b2a46)
+  )
+  (fp_text value "KNeoPix - Logo" (at 0.05 -5.25 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 97a0f14a-d15e-474a-a909-087098cd6fe8)
+  )
+  (fp_text user "V1.3" (at -2.9 0.403535 unlocked) (layer "F.Cu")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp 12f4163d-ea15-4e81-838a-82b0d019fb6a)
+  )
+  (fp_text user "©2023" (at -0.54 0.36 unlocked) (layer "F.Cu")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp 2559a8bb-749f-409d-b20d-ee5fa8c2be74)
+  )
+  (fp_text user "Erkan Çolak" (at -1.43 1.32 unlocked) (layer "F.Cu")
+      (effects (font (size 0.5 0.5) (thickness 0.125)))
+    (tstamp 4fe51b59-c662-44dc-acc0-df2f6fcd80e8)
+  )
+  (fp_text user "KNeoPiX" (at -1.53 -0.736465 unlocked) (layer "F.Cu")
+      (effects (font (size 0.75 0.75) (thickness 0.1875)))
+    (tstamp cc859522-c3c3-45fa-8185-c5502aec5a3f)
+  )
+  (fp_text user "${REFERENCE}" (at 0.05 -3.75 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7d1ed758-8413-4969-aed8-411edc0f9da4)
+  )
+  (fp_rect (start 3.928535 1.52) (end 1.153535 -1.145)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Cu") (tstamp 01b129b7-7bd0-4fdc-8e28-3fe699b812de))
+  (fp_rect (start 3.928535 1.52) (end 1.153535 -1.145)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Cu") (tstamp b98da8c7-0368-4ee2-b88a-5c657f263591))
+  (fp_rect (start 4.34 1.89) (end -4.045 -1.465)
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Cu") (tstamp d72e071f-d66c-4153-8495-23e6a632feca))
+  (fp_circle (center 2.038535 0.885) (end 2.038535 0.86)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp 32c907e8-8b86-45a1-97be-9e93132331a9))
+  (fp_circle (center 2.038535 0.885) (end 2.038535 0.86)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp a4b24e4f-de21-4643-9edf-a0be4d86300c))
+  (fp_circle (center 2.238535 0.535) (end 2.238535 -0.156466)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp 93a30022-2cff-4565-8cec-26b01e98c6e7))
+  (fp_circle (center 2.238535 0.535) (end 2.238535 -0.156466)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp b24c3e4d-ae8f-48bc-9944-e9ced816eb96))
+  (fp_circle (center 2.463535 -0.54) (end 2.463535 -0.565)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp b419b67d-ae84-4789-a393-ceb8ef730763))
+  (fp_circle (center 2.463535 -0.54) (end 2.463535 -0.565)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp cbc45e1e-5558-438d-ab17-fce159ef9ee6))
+  (fp_circle (center 2.513535 -0.14) (end 2.513535 -0.831466)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp ad5d570e-6bf2-41e0-a341-ff7ba5fc3e31))
+  (fp_circle (center 2.513535 -0.14) (end 2.513535 -0.831466)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp cf1f9189-e049-49e1-8e6f-506814bef55e))
+  (fp_circle (center 2.938535 0.41) (end 2.938535 -0.281466)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp 9e9b14d1-9ace-4e4d-b988-2bd3dbf5acb7))
+  (fp_circle (center 2.938535 0.41) (end 2.938535 -0.281466)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp a07f6d4c-0ff3-41b9-a310-6a84524c4314))
+  (fp_circle (center 3.313535 0.56) (end 3.313535 0.535)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp 7b7bf35c-3b33-4f21-b69d-ae551349665d))
+  (fp_circle (center 3.313535 0.56) (end 3.313535 0.535)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.Cu") (tstamp b3088185-51f6-491e-9546-a9c10a10f677))
+  (pad "" smd rect (at 0.195 0.215) (size 8.79 3.73) (layers "*.Mask") (tstamp 57189dca-a36b-433c-b195-3c2159fda74d))
+  (group "" (id c0fb62f4-b476-4cba-93f8-c8858bfaab55)
+    (members
+      01b129b7-7bd0-4fdc-8e28-3fe699b812de
+      32c907e8-8b86-45a1-97be-9e93132331a9
+      7b7bf35c-3b33-4f21-b69d-ae551349665d
+      93a30022-2cff-4565-8cec-26b01e98c6e7
+      a07f6d4c-0ff3-41b9-a310-6a84524c4314
+      b419b67d-ae84-4789-a393-ceb8ef730763
+      cf1f9189-e049-49e1-8e6f-506814bef55e
+    )
+  )
+  (group "" (id ca415890-fe06-4c6d-ab40-da4ccd7ac710)
+    (members
+      12f4163d-ea15-4e81-838a-82b0d019fb6a
+      2559a8bb-749f-409d-b20d-ee5fa8c2be74
+      4fe51b59-c662-44dc-acc0-df2f6fcd80e8
+      c0fb62f4-b476-4cba-93f8-c8858bfaab55
+      cc859522-c3c3-45fa-8185-c5502aec5a3f
+      d72e071f-d66c-4153-8495-23e6a632feca
+    )
+  )
+)

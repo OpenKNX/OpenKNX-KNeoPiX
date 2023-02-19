@@ -2649,7 +2649,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9eb91e9b-eb14-4185-a14b-18a0f8e512d6)
   )
-  (text "TODO:\n- Check Digital Isolators. (replace R3+R4) r1+r2 allready done. \n- Round the edges\n- Find a way to bring the DebugPins UP from the XIAO\n\n\nInfo: https://www.ti.com/lit/an/slla284f/slla284f.pdf\nBest practice to DiGitalIsolators."
+  (text "TODO for V1.4 - New Variante: \n- Reduce to RM1.00 CConnector JST:JST_SH_BM0 P1.00mm\n- Replace the 2.54 Terminal with JST!\n- Make is Smaler. No V-External Support! Only KNX!\n\n"
     (at 298.8056 242.2144 0)
     (effects (font (size 2 2) bold) (justify left bottom))
     (uuid a0f6fba5-7631-4cba-b2a8-1e93a50854d7)
@@ -2692,6 +2692,11 @@
   (text "JP5 -> Possible to Bridge 2+3" (at 147.447 217.678 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be613dde-a4ad-4790-bc15-edaf7b7d9566)
+  )
+  (text "Best practice to DiGitalIsolators.\nhttps://www.ti.com/lit/an/slla284f/slla284f.pdf\n"
+    (at 298.704 247.65 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://www.ti.com/lit/an/slla284f/slla284f.pdf"))
+    (uuid ca0fe2e7-325a-4725-bd40-70149caa4074)
   )
   (text "External 5V ONLY:" (at 154.432 168.402 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
