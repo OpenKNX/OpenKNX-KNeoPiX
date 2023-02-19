@@ -1,1 +1,5 @@
 fp-info-cache
+.\Board2Pdf
+*-bak
+*_backup
+.DS_Store
