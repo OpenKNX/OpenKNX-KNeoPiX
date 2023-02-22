@@ -22,6 +22,7 @@ R3,0Ohm - D4 Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,115.76,-109.95,9
 R4,0Ohm - D5 Jumper,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,117.08,-109.96,-90.0,top
 REF1,LOGO,OpenKNX_Logo_05x03,117.4,-125.801351,90.0,bottom
 REF2,LOGO,OpenKNX_Logo_07x05,126.475,-109.275,90.0,bottom
+REF42,KNeoPix - Logo,KNeoPix - Logo,123.72,-125.03,90.0,bottom
 SW1,Prog BTN,SW_Push_1P1T_NO_CK_KMR2,134.61,-114.725,-90.0,top
 U1,Seeeduino XIAO,Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM-no-15-16-17-18-19-20-pad,114.9417,-118.3737,90.0,bottom
 U2,LM2937IMP-3.3 / 5.0,SOT-223-3_TabPin2,124.45,-113.375,90.0,top

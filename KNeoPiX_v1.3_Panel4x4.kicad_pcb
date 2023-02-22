@@ -552,7 +552,7 @@
       (net 53 "Board_1-RESET") (pinfunction "Pin_5") (pintype "passive") (tstamp a36df4a6-8178-4803-94cb-0e9276936cf3))
     (pad "MP" smd roundrect (at -3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp d20e61d4-3a81-4a1b-b637-3f262d5786d6))
     (pad "MP" smd roundrect (at 3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp f33696ae-710d-4431-bd28-c3bfa93d879f))
-    (model "${KIPRJMOD}/packages3D/BM5B-SRSS-TB.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/BM5B-SRSS-TB.step"
       (offset (xyz 2 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -666,7 +666,7 @@
       (net 109 "Board_3-RESET") (pinfunction "Pin_5") (pintype "passive") (tstamp a36df4a6-8178-4803-94cb-0e9276936cf3))
     (pad "MP" smd roundrect (at -3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp d20e61d4-3a81-4a1b-b637-3f262d5786d6))
     (pad "MP" smd roundrect (at 3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp f33696ae-710d-4431-bd28-c3bfa93d879f))
-    (model "${KIPRJMOD}/packages3D/BM5B-SRSS-TB.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/BM5B-SRSS-TB.step"
       (offset (xyz 2 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -780,7 +780,7 @@
       (net 25 "Board_0-RESET") (pinfunction "Pin_5") (pintype "passive") (tstamp a36df4a6-8178-4803-94cb-0e9276936cf3))
     (pad "MP" smd roundrect (at -3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp d20e61d4-3a81-4a1b-b637-3f262d5786d6))
     (pad "MP" smd roundrect (at 3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp f33696ae-710d-4431-bd28-c3bfa93d879f))
-    (model "${KIPRJMOD}/packages3D/BM5B-SRSS-TB.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/BM5B-SRSS-TB.step"
       (offset (xyz 2 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -894,7 +894,7 @@
       (net 81 "Board_2-RESET") (pinfunction "Pin_5") (pintype "passive") (tstamp a36df4a6-8178-4803-94cb-0e9276936cf3))
     (pad "MP" smd roundrect (at -3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp d20e61d4-3a81-4a1b-b637-3f262d5786d6))
     (pad "MP" smd roundrect (at 3.3 -1.2) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp f33696ae-710d-4431-bd28-c3bfa93d879f))
-    (model "${KIPRJMOD}/packages3D/BM5B-SRSS-TB.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/BM5B-SRSS-TB.step"
       (offset (xyz 2 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -3865,7 +3865,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 2f2f70a6-e697-4a82-afd8-eadb91b6dd69))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 100 "Board_3-KNX+") (pinfunction "1") (pintype "passive") (tstamp f156caae-a4ab-4ea8-bb94-a06f12d43eb1))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3930,7 +3930,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 2f2f70a6-e697-4a82-afd8-eadb91b6dd69))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 16 "Board_0-KNX+") (pinfunction "1") (pintype "passive") (tstamp f156caae-a4ab-4ea8-bb94-a06f12d43eb1))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3995,7 +3995,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 2f2f70a6-e697-4a82-afd8-eadb91b6dd69))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 44 "Board_1-KNX+") (pinfunction "1") (pintype "passive") (tstamp f156caae-a4ab-4ea8-bb94-a06f12d43eb1))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -4060,7 +4060,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 2f2f70a6-e697-4a82-afd8-eadb91b6dd69))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 72 "Board_2-KNX+") (pinfunction "1") (pintype "passive") (tstamp f156caae-a4ab-4ea8-bb94-a06f12d43eb1))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5349,7 +5349,7 @@
       (net 108 "Board_3-NEO_DATA1_OUT") (pinfunction "Pin_3") (pintype "passive") (tstamp 34e5c74e-557f-47dc-9547-5125d176fad5))
     (pad "4" thru_hole circle (at 7.62 0) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 98 "Board_3-EXT_VCC_IN") (pinfunction "Pin_4") (pintype "passive") (tstamp 214a4abe-15ee-4f6d-9f38-49d3d67c2f4d))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5469,7 +5469,7 @@
       (net 52 "Board_1-NEO_DATA1_OUT") (pinfunction "Pin_3") (pintype "passive") (tstamp 34e5c74e-557f-47dc-9547-5125d176fad5))
     (pad "4" thru_hole circle (at 7.62 0) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 42 "Board_1-EXT_VCC_IN") (pinfunction "Pin_4") (pintype "passive") (tstamp 214a4abe-15ee-4f6d-9f38-49d3d67c2f4d))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5589,7 +5589,7 @@
       (net 24 "Board_0-NEO_DATA1_OUT") (pinfunction "Pin_3") (pintype "passive") (tstamp 34e5c74e-557f-47dc-9547-5125d176fad5))
     (pad "4" thru_hole circle (at 7.62 0) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 14 "Board_0-EXT_VCC_IN") (pinfunction "Pin_4") (pintype "passive") (tstamp 214a4abe-15ee-4f6d-9f38-49d3d67c2f4d))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5709,7 +5709,7 @@
       (net 80 "Board_2-NEO_DATA1_OUT") (pinfunction "Pin_3") (pintype "passive") (tstamp 34e5c74e-557f-47dc-9547-5125d176fad5))
     (pad "4" thru_hole circle (at 7.62 0) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 70 "Board_2-EXT_VCC_IN") (pinfunction "Pin_4") (pintype "passive") (tstamp 214a4abe-15ee-4f6d-9f38-49d3d67c2f4d))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5921,7 +5921,7 @@
       (net 12 "Board_0-D9") (pinfunction "Pin_8") (pintype "passive") (tstamp 0941327f-88a4-4ce2-97c6-433353e0938b))
     (pad "9" thru_hole circle (at 20.32 0 180) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 4 "Board_0-D10") (pinfunction "Pin_9") (pintype "passive") (tstamp a974d4d3-a62f-4f2f-a94d-d5df688c1eb4))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6133,7 +6133,7 @@
       (net 40 "Board_1-D9") (pinfunction "Pin_8") (pintype "passive") (tstamp 0941327f-88a4-4ce2-97c6-433353e0938b))
     (pad "9" thru_hole circle (at 20.32 0 180) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 32 "Board_1-D10") (pinfunction "Pin_9") (pintype "passive") (tstamp a974d4d3-a62f-4f2f-a94d-d5df688c1eb4))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6345,7 +6345,7 @@
       (net 96 "Board_3-D9") (pinfunction "Pin_8") (pintype "passive") (tstamp 0941327f-88a4-4ce2-97c6-433353e0938b))
     (pad "9" thru_hole circle (at 20.32 0 180) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 88 "Board_3-D10") (pinfunction "Pin_9") (pintype "passive") (tstamp a974d4d3-a62f-4f2f-a94d-d5df688c1eb4))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6557,7 +6557,7 @@
       (net 68 "Board_2-D9") (pinfunction "Pin_8") (pintype "passive") (tstamp 0941327f-88a4-4ce2-97c6-433353e0938b))
     (pad "9" thru_hole circle (at 20.32 0 180) (size 2.2 2.2) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 60 "Board_2-D10") (pinfunction "Pin_9") (pintype "passive") (tstamp a974d4d3-a62f-4f2f-a94d-d5df688c1eb4))
-    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6980,22 +6980,22 @@
       (net 101 "Board_3-KNX_3V3") (pinfunction "3V3") (pintype "power_out") (tstamp 75605e76-bc67-4502-a386-e002c7d3f9dd))
     (pad "7" thru_hole oval (at 0 15.24 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 102 "Board_3-KNX_5V") (pinfunction "Vcc2") (pintype "power_out") (tstamp bd243d51-5e7d-4431-b013-244b99cc018b))
-    (model "${KIPRJMOD}/packages3D/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11.step" hide
       (offset (xyz 1.3 -17.8 8.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/PinHeader_1x07_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 6.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11_wo_headers.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11_wo_headers.step"
       (offset (xyz 1.27 -17.77 8.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -7097,22 +7097,22 @@
       (net 17 "Board_0-KNX_3V3") (pinfunction "3V3") (pintype "power_out") (tstamp 75605e76-bc67-4502-a386-e002c7d3f9dd))
     (pad "7" thru_hole oval (at 0 15.24 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 18 "Board_0-KNX_5V") (pinfunction "Vcc2") (pintype "power_out") (tstamp bd243d51-5e7d-4431-b013-244b99cc018b))
-    (model "${KIPRJMOD}/packages3D/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11.step" hide
       (offset (xyz 1.3 -17.8 8.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/PinHeader_1x07_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 6.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11_wo_headers.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11_wo_headers.step"
       (offset (xyz 1.27 -17.77 8.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -7214,22 +7214,22 @@
       (net 45 "Board_1-KNX_3V3") (pinfunction "3V3") (pintype "power_out") (tstamp 75605e76-bc67-4502-a386-e002c7d3f9dd))
     (pad "7" thru_hole oval (at 0 15.24 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 46 "Board_1-KNX_5V") (pinfunction "Vcc2") (pintype "power_out") (tstamp bd243d51-5e7d-4431-b013-244b99cc018b))
-    (model "${KIPRJMOD}/packages3D/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11.step" hide
       (offset (xyz 1.3 -17.8 8.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/PinHeader_1x07_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 6.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11_wo_headers.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11_wo_headers.step"
       (offset (xyz 1.27 -17.77 8.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -7331,22 +7331,22 @@
       (net 73 "Board_2-KNX_3V3") (pinfunction "3V3") (pintype "power_out") (tstamp 75605e76-bc67-4502-a386-e002c7d3f9dd))
     (pad "7" thru_hole oval (at 0 15.24 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 74 "Board_2-KNX_5V") (pinfunction "Vcc2") (pintype "power_out") (tstamp bd243d51-5e7d-4431-b013-244b99cc018b))
-    (model "${KIPRJMOD}/packages3D/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinSocket_1x07_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11.step" hide
       (offset (xyz 1.3 -17.8 8.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/PinHeader_1x07_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 6.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "${KIPRJMOD}/packages3D/NanoBCU_V00.11_wo_headers.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11_wo_headers.step"
       (offset (xyz 1.27 -17.77 8.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -8653,7 +8653,7 @@
       (net 30 "Board_1-D0") (pinfunction "2") (pintype "passive") (tstamp d6015794-9b87-4da1-b226-96b314c1258a))
     (pad "2" smd rect (at 2.05 0.8 270) (size 0.9 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 30 "Board_1-D0") (pinfunction "2") (pintype "passive") (tstamp bdb1c65a-c5c7-4759-9664-0963c13341d9))
-    (model "${KIPRJMOD}/packages3D/SW_SPST_B3U-1000P-B.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/SW_SPST_B3U-1000P-B.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8717,7 +8717,7 @@
       (net 86 "Board_3-D0") (pinfunction "2") (pintype "passive") (tstamp d6015794-9b87-4da1-b226-96b314c1258a))
     (pad "2" smd rect (at 2.05 0.8 270) (size 0.9 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 86 "Board_3-D0") (pinfunction "2") (pintype "passive") (tstamp bdb1c65a-c5c7-4759-9664-0963c13341d9))
-    (model "${KIPRJMOD}/packages3D/SW_SPST_B3U-1000P-B.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/SW_SPST_B3U-1000P-B.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8781,7 +8781,7 @@
       (net 2 "Board_0-D0") (pinfunction "2") (pintype "passive") (tstamp d6015794-9b87-4da1-b226-96b314c1258a))
     (pad "2" smd rect (at 2.05 0.8 270) (size 0.9 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "Board_0-D0") (pinfunction "2") (pintype "passive") (tstamp bdb1c65a-c5c7-4759-9664-0963c13341d9))
-    (model "${KIPRJMOD}/packages3D/SW_SPST_B3U-1000P-B.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/SW_SPST_B3U-1000P-B.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8845,7 +8845,7 @@
       (net 58 "Board_2-D0") (pinfunction "2") (pintype "passive") (tstamp d6015794-9b87-4da1-b226-96b314c1258a))
     (pad "2" smd rect (at 2.05 0.8 270) (size 0.9 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 58 "Board_2-D0") (pinfunction "2") (pintype "passive") (tstamp bdb1c65a-c5c7-4759-9664-0963c13341d9))
-    (model "${KIPRJMOD}/packages3D/SW_SPST_B3U-1000P-B.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/SW_SPST_B3U-1000P-B.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8925,7 +8925,7 @@
       (net 44 "Board_1-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp d6652bff-9884-4f10-8449-354763224219))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 47 "Board_1-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 66226ff9-b6d7-4b4d-a32b-65c2da170b32))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl" hide
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -8975,7 +8975,7 @@
       (net 100 "Board_3-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp d6652bff-9884-4f10-8449-354763224219))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 103 "Board_3-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 66226ff9-b6d7-4b4d-a32b-65c2da170b32))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl" hide
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -9025,7 +9025,7 @@
       (net 16 "Board_0-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp d6652bff-9884-4f10-8449-354763224219))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 19 "Board_0-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 66226ff9-b6d7-4b4d-a32b-65c2da170b32))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl" hide
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -9075,7 +9075,7 @@
       (net 72 "Board_2-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp d6652bff-9884-4f10-8449-354763224219))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 75 "Board_2-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 66226ff9-b6d7-4b4d-a32b-65c2da170b32))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl" hide
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -9170,7 +9170,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 80aeafa5-f911-4968-912a-5c406e15d019))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 47 "Board_1-KNX_GND") (pinfunction "1") (pintype "passive") (tstamp d81702da-9327-4fbc-92a2-6744e512382d))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -9235,7 +9235,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 80aeafa5-f911-4968-912a-5c406e15d019))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 103 "Board_3-KNX_GND") (pinfunction "1") (pintype "passive") (tstamp d81702da-9327-4fbc-92a2-6744e512382d))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models//243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -9300,7 +9300,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 80aeafa5-f911-4968-912a-5c406e15d019))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 19 "Board_0-KNX_GND") (pinfunction "1") (pintype "passive") (tstamp d81702da-9327-4fbc-92a2-6744e512382d))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -9365,7 +9365,7 @@
       (stroke (width 0.2) (type solid)) (layer "F.Fab") (tstamp 80aeafa5-f911-4968-912a-5c406e15d019))
     (pad "1" thru_hole circle (at 0 0) (size 1.875 1.875) (drill 1.25) (layers "*.Cu" "*.Mask")
       (net 75 "Board_2-KNX_GND") (pinfunction "1") (pintype "passive") (tstamp d81702da-9327-4fbc-92a2-6744e512382d))
-    (model "/Users/ecolak/Documents/KiCad/RP_Pico_KNX/rppicoknx/packages3D/243-131.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-131.wrl"
       (offset (xyz 0 0 -4.479999952))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -10355,7 +10355,7 @@
       (net 44 "Board_1-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp 33fd70dd-1adf-4a23-8112-da201bbe9b8e))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 47 "Board_1-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 79597ccc-a487-44fb-b56f-a473fd64306a))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl"
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -10443,7 +10443,7 @@
       (net 100 "Board_3-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp 33fd70dd-1adf-4a23-8112-da201bbe9b8e))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 103 "Board_3-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 79597ccc-a487-44fb-b56f-a473fd64306a))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl"
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -10531,7 +10531,7 @@
       (net 16 "Board_0-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp 33fd70dd-1adf-4a23-8112-da201bbe9b8e))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 19 "Board_0-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 79597ccc-a487-44fb-b56f-a473fd64306a))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl"
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -10619,7 +10619,7 @@
       (net 72 "Board_2-KNX+") (pinfunction "Pin_1") (pintype "passive") (tstamp 33fd70dd-1adf-4a23-8112-da201bbe9b8e))
     (pad "2" thru_hole circle (at -0.4 -3.2 90) (size 2.5 2.5) (drill 1.1) (layers "*.Cu" "*.Mask")
       (net 75 "Board_2-KNX_GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 79597ccc-a487-44fb-b56f-a473fd64306a))
-    (model "${KIPRJMOD}/packages3D/243-211--3DModel-STEP-56544.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/243-211--3DModel-STEP-56544.wrl"
       (offset (xyz -7 2.88 5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 180))
@@ -11623,22 +11623,22 @@
       (net 109 "Board_3-RESET") (pinfunction "RESET") (pintype "input") (tstamp e8e76d1e-cdd5-4b68-937b-457fd8f48a55))
     (pad "20" thru_hole rect (at 10.355786 16.904954 90) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 97 "Board_3-EXT_GND") (pinfunction "GND") (pintype "input") (tstamp cd290c73-6f44-47e1-8f8b-f2ab1dd15ae9))
-    (model "${KIPRJMOD}/packages3D/Seeeduino XIAO SAMD21 v4.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeeduino XIAO SAMD21 v4.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v26.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v26.step" hide
       (offset (xyz 6.1 49.25 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.wrl"
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -12350,22 +12350,22 @@
       (net 53 "Board_1-RESET") (pinfunction "RESET") (pintype "input") (tstamp e8e76d1e-cdd5-4b68-937b-457fd8f48a55))
     (pad "20" thru_hole rect (at 10.355786 16.904954 90) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 41 "Board_1-EXT_GND") (pinfunction "GND") (pintype "input") (tstamp cd290c73-6f44-47e1-8f8b-f2ab1dd15ae9))
-    (model "${KIPRJMOD}/packages3D/Seeeduino XIAO SAMD21 v4.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeeduino XIAO SAMD21 v4.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v26.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v26.step" hide
       (offset (xyz 6.1 49.25 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.wrl"
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -13077,22 +13077,22 @@
       (net 25 "Board_0-RESET") (pinfunction "RESET") (pintype "input") (tstamp e8e76d1e-cdd5-4b68-937b-457fd8f48a55))
     (pad "20" thru_hole rect (at 10.355786 16.904954 90) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 13 "Board_0-EXT_GND") (pinfunction "GND") (pintype "input") (tstamp cd290c73-6f44-47e1-8f8b-f2ab1dd15ae9))
-    (model "${KIPRJMOD}/packages3D/Seeeduino XIAO SAMD21 v4.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeeduino XIAO SAMD21 v4.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v26.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v26.step" hide
       (offset (xyz 6.1 49.25 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.wrl"
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -13804,22 +13804,22 @@
       (net 81 "Board_2-RESET") (pinfunction "RESET") (pintype "input") (tstamp e8e76d1e-cdd5-4b68-937b-457fd8f48a55))
     (pad "20" thru_hole rect (at 10.355786 16.904954 90) (size 1.7 1.7) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 69 "Board_2-EXT_GND") (pinfunction "GND") (pintype "input") (tstamp cd290c73-6f44-47e1-8f8b-f2ab1dd15ae9))
-    (model "${KIPRJMOD}/packages3D/Seeeduino XIAO SAMD21 v4.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeeduino XIAO SAMD21 v4.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v26.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v26.step" hide
       (offset (xyz 6.1 49.25 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.step" hide
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/packages3D/Seeed Studio XIAO RP2040 v27.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO RP2040 v27.wrl"
       (offset (xyz 9.09 10.66 0.125))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
