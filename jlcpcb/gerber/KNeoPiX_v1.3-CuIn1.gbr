@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0-0)*%
-%TF.CreationDate,2023-02-22T23:04:00+01:00*%
+%TF.CreationDate,2023-02-23T11:22:35+01:00*%
 %TF.ProjectId,KNeoPiX_v1.3,4b4e656f-5069-4585-9f76-312e332e6b69,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (7.0.0-0)) date 2023-02-22 23:04:00*
+G04 Created by KiCad (PCBNEW (7.0.0-0)) date 2023-02-23 11:22:35*
 %MOMM*%
 %LPD*%
 G01*
@@ -27,10 +27,10 @@ G04 APERTURE LIST*
 %ADD14C,2.200000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD15R,1.700000X1.700000*%
+%ADD15O,1.700000X1.700000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD16O,1.700000X1.700000*%
+%ADD16R,1.700000X1.700000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
 %ADD17C,2.500000*%
@@ -105,6 +105,7 @@ X113139999Y-117779999D03*
 D16*
 %TO.N,KNX_GND*%
 X113139999Y-115239999D03*
+D15*
 %TO.N,KNX_SAVE*%
 X113139999Y-112699999D03*
 %TO.N,KNX_RX*%
@@ -135,7 +136,7 @@ X120230000Y-124130000D03*
 %TO.N,KNX_GND*%
 X114480000Y-124130000D03*
 %TD*%
-D15*
+D16*
 %TO.N,SWDIO*%
 %TO.C,U1*%
 X134386653Y-110557913D03*
