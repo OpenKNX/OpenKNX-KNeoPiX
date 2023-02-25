@@ -58,7 +58,8 @@
       ],
       "drc_exclusions": [
         "hole_near_hole|114500000|124150000|d81702da-9327-4fbc-92a2-6744e512382d|79597ccc-a487-44fb-b56f-a473fd64306a",
-        "hole_near_hole|120250000|124150000|f156caae-a4ab-4ea8-bb94-a06f12d43eb1|33fd70dd-1adf-4a23-8112-da201bbe9b8e"
+        "hole_near_hole|120250000|124150000|f156caae-a4ab-4ea8-bb94-a06f12d43eb1|33fd70dd-1adf-4a23-8112-da201bbe9b8e",
+        "net_conflict|114941700|118373700|34512341-9fd1-4921-9dd3-c0b39931b681|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -67,7 +68,7 @@
         "annular_width": "error",
         "clearance": "ignore",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
@@ -84,14 +85,14 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
+        "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
@@ -494,7 +495,7 @@
       "step": "KNeoPix_v1.xx.step",
       "vrml": "3D/KNeoPiX_v1.3.wrl"
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "OpenKNX_PageLayout_CERN-OHL-v2_2023.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
