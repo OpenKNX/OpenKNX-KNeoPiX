@@ -1600,7 +1600,7 @@
     (pin "1" (uuid 001f18a6-8543-4eb1-b53d-9b6c7657da17))
     (pin "2" (uuid 2298ffd0-e5d1-4d42-8cfd-e9297837618a))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JP4") (unit 1)
         )
@@ -1626,7 +1626,7 @@
     (pin "1" (uuid b9fb244e-37d6-42b2-9c7f-ceba9c81087e))
     (pin "2" (uuid 075e4309-8ebf-4b17-aa8c-89c96b22a3f4))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -1652,7 +1652,7 @@
     (pin "1" (uuid 440e12e9-5613-4133-a088-18e3cfcba320))
     (pin "2" (uuid 1fe12d36-1d3b-4a30-a74a-eaed0146f7b8))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW1") (unit 1)
         )
@@ -1669,7 +1669,7 @@
     (property "Value" "OpenKNX_BCU" (at 19.558 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "KNeoPix:NanoBCU_PinSocket_LowProfile" (at 23.368 56.896 0)
+    (property "Footprint" "KNeoPix:OpenKNX_BCU_V2.0" (at 23.368 56.896 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 23.368 56.896 0)
@@ -1683,7 +1683,7 @@
     (pin "6" (uuid d7acb637-a175-4e7b-bb0c-7d3605aedc60))
     (pin "7" (uuid 1fb00714-a258-49f0-a567-03e206188426))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "GN1") (unit 1)
         )
@@ -1727,7 +1727,7 @@
     (pin "8" (uuid 6200b31b-8d73-4fc7-acb7-18fe5dca3570))
     (pin "9" (uuid 2b9ef9f1-8747-49ad-a6c0-4c88136a5402))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U1") (unit 1)
         )
@@ -1763,7 +1763,7 @@
     (pin "8" (uuid 29b3e4bb-200f-4ed8-9a3d-d9e473001380))
     (pin "9" (uuid 0a7efe60-b0e3-45a3-bd24-3bc4d1d82b21))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J7") (unit 1)
         )
@@ -1801,7 +1801,7 @@
     (pin "A" (uuid 8ea5adbc-c527-464c-a501-491b4b8f62ae))
     (pin "C" (uuid 8e013757-bc0a-4475-b1b2-00c879511adb))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D3") (unit 1)
         )
@@ -1830,7 +1830,7 @@
     (pin "4" (uuid 77533427-b4ae-4f5a-ac03-db4ea1232761))
     (pin "5" (uuid b55022d3-b664-47b6-9cb5-157be2f93f27))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J5") (unit 1)
         )
@@ -1859,7 +1859,7 @@
     (pin "4" (uuid 243fdec3-5364-459c-8a6d-930de0a3292f))
     (pin "5" (uuid eab8f977-a0f5-494c-87a7-fbdfe17da4ed))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J6") (unit 1)
         )
@@ -1885,7 +1885,7 @@
     (pin "1" (uuid 61d3817a-66b8-4d4f-aade-c73f0693dca8))
     (pin "2" (uuid c9cb75f3-a7e1-46d9-971c-445df3782869))
     (instances
-      (project "KNeoPiX_v1.3"
+      (project "OpenKNXiaO-Mini"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C7") (unit 1)
         )

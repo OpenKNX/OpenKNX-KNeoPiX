@@ -57,9 +57,7 @@
         }
       ],
       "drc_exclusions": [
-        "hole_near_hole|114500000|124150000|d81702da-9327-4fbc-92a2-6744e512382d|79597ccc-a487-44fb-b56f-a473fd64306a",
-        "hole_near_hole|120250000|124150000|f156caae-a4ab-4ea8-bb94-a06f12d43eb1|33fd70dd-1adf-4a23-8112-da201bbe9b8e",
-        "net_conflict|114941700|118373700|34512341-9fd1-4921-9dd3-c0b39931b681|00000000-0000-0000-0000-000000000000"
+        "net_conflict|133695786|120920000|34512341-9fd1-4921-9dd3-c0b39931b681|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -454,7 +452,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KNeoPiX_v1.3.kicad_pro",
+    "filename": "OpenKNXiaO-Mini.kicad_pro",
     "version": 1
   },
   "net_settings": {
