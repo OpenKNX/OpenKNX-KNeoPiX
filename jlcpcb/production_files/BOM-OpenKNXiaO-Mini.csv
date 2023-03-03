@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+Conn_01x05,J5,JST_SHL_SM05B-SHLS-TF_1x05-1MP_P1.00mm_Horizontal,
+Conn_01x12,J7,JST_SHL_SM12B-SHLS-TF_1x12-1MP_P1.00mm_Horizontal,
+KNX Pin SAVE - Optional,JP4,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,
+100nF 16V - (X5R 0805),C7,C_0805_2012Metric,
+Conn_01x05,J6,PinHeader_1x05_P1.27mm_Vertical,
+Prog BTN,SW1,SW_Push_1P1T_NO_CK_KMR2,
