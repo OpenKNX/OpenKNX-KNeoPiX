@@ -1987,17 +1987,17 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 4.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11_wo_headers.step"
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_V00.11_wo_headers.step" hide
       (offset (xyz 1.27 -17.77 6.8))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_superflat_V00.11_wo_headers.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/NanoBCU_superflat_V00.11_wo_headers.step"
       (offset (xyz 1.3 -17.8 4.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))
@@ -2007,7 +2007,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical_short.step" hide
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/PinHeader_1x07_P2.54mm_Vertical_short.step"
       (offset (xyz 0 0 0.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

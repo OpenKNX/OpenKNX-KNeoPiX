@@ -1096,7 +1096,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 86a2ded3-580e-42c8-a60b-5d528fd7e365)
   )
-  (text "TODO for V1.4 - New Variante: \n- Reduce to RM1.00 CConnector JST:JST_SH_BM0 P1.00mm\n- Replace the 2.54 Terminal with JST!\n- Make is Smaler. No V-External Support! Only KNX!\n\n"
+  (text "TODO for V1.4 - New Variante: \n- Reduce to RM1.00 CConnector JST:JST_SH_BM0 P1.00mm\n- Replace the 2.54 Terminal with JST!\n- Make is Smaler. No V-External Support! Only KNX!\n- Add power LED (Bus POWER) ?\n"
     (at 298.8056 242.2144 0)
     (effects (font (size 2 2) bold) (justify left bottom))
     (uuid a0f6fba5-7631-4cba-b2a8-1e93a50854d7)
