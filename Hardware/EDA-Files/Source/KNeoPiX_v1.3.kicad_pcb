@@ -3027,6 +3027,11 @@
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/KNeoPix.3D-Models/Seeed Studio XIAO-ESP32-C3.step" hide
+      (offset (xyz 15.2 8.9 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (footprint "KNeoPix:KNeoPix - Logo" (layer "B.Cu")
