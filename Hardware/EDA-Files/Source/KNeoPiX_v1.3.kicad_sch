@@ -2416,8 +2416,8 @@
     (uuid 9eb91e9b-eb14-4185-a14b-18a0f8e512d6)
   )
   (text "TODO for V1.4 - New Variante: \n- Flip Nano BCU, so the Top is buttom\n"
-    (at 205.74 275.336 0)
-    (effects (font (size 2 2) bold) (justify left bottom))
+    (at 275.1836 282.956 0)
+    (effects (font (size 0.65 0.65) bold) (justify left bottom))
     (uuid a0f6fba5-7631-4cba-b2a8-1e93a50854d7)
   )
   (text "If you don't use EXT_VCC, no need to equipt/solder: U2, C3, C4"
@@ -2459,11 +2459,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be613dde-a4ad-4790-bc15-edaf7b7d9566)
   )
-  (text "Best practice to DiGitalIsolators.\nhttps://www.ti.com/lit/an/slla284f/slla284f.pdf\n"
-    (at 205.6384 280.7716 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://www.ti.com/lit/an/slla284f/slla284f.pdf"))
-    (uuid ca0fe2e7-325a-4725-bd40-70149caa4074)
-  )
   (text "External 5V ONLY:" (at 73.279 237.744 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid cbcb9505-38ac-4cdc-98b6-2de2d631cc30)
@@ -2493,6 +2488,10 @@
   (text "INFO:" (at 147.701 247.269 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify right bottom))
     (uuid e1ecb699-9275-4e21-964c-179de686e4e2)
+  )
+  (text "Best practice to DiGitalIsolators.\n" (at 18.1356 106.68 0)
+    (effects (font (size 0.5 0.5)) (justify left bottom) (href "https://www.ti.com/lit/an/slla284f/slla284f.pdf"))
+    (uuid e56094e2-4a4b-43be-96a8-691632c04e24)
   )
   (text "https://wiki.seeedstudio.com/Seeeduino-XIAO/" (at 270.891 187.706 0)
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://wiki.seeedstudio.com/Seeeduino-XIAO/"))

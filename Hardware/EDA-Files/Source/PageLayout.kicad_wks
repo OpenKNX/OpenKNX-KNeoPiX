@@ -1,4 +1,4 @@
-(kicad_wks (version 20210606) (generator pl_editor)
+(kicad_wks (version 20220228) (generator pl_editor)
   (setup (textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
   (left_margin 10)(right_margin 10)(top_margin 10)(bottom_margin 10))
   (rect (name "rect1:Rect") (start 110.002 44.5) (end 2 2))
@@ -31,6 +31,4 @@
   (line (name "segm11:Line") (start 26 8.5) (end 26 2))
   (tbtext "Copyright © Erkan Çolak 2023" (name "text16:Text") (pos 109 42) (font bold))
   (tbtext "This documentation describes OpenKNX Hardware and is licensed under the CERN OHL V2\n\nYou may redistribute and modify this documentation under the terms of the CERN OHL V2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,\nSATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v2 for applicable conditions.\n\nif you choose to manufacture products based on this design, please notify me via erkan@colak.de" (name "text17:Text") (pos 109 34) (font (size 1 1)))
-  (tbtext "Text" (name "") (pos 0 0))
-  (tbtext "Text" (name "") (pos 0 0))
 )
