@@ -2,7 +2,7 @@
 
 # OpenKNX KNeoPix
 
-![#Bild#](Documentation/Renderings/rendered_case_ assemble_Step_0.png)
+![KNEOPIX](Documentation/Renderings/rendered_case_assemble_Step_0.png)
 
 ## Preliminary Information about OpenKNX KNeoPix
 
