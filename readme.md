@@ -1,10 +1,12 @@
 ` Documentation is in progress! `
 
-![#Bild#](Documentation/Renderings/rendered_pcb_r_front.png)
+# OpenKNX KNeoPix
 
-## Preliminary Information about KNeoPix
+![#Bild#](Documentation/Renderings/rendered_case_ assemble_Step_0.png)
 
-OpenKNX KNeoPix is an innovative hardware solution designed specifically for DIY (Do It Yourself) projects. It has been developed to provide enthusiasts and hobbyists with the opportunity to implement creative solutions in the field of building automation and intelligent networking. It's important to note that KNeoPix does not come with any warranties. This DIY orientation means that users take full responsibility for assembly, configuration, and operation.
+## Preliminary Information about OpenKNX KNeoPix
+
+OpenKNX KNeoPix is an innovative hardware solution designed specifically for DIY (Do It Yourself) projects. It has been developed to provide enthusiasts and hobbyists with the opportunity to implement creative solutions in the field of building automation and intelligent networking. It's important to note that KNeoPix does not come with any warranties. This DIY orientation means that users take full responsibility for assembly, configuration, and operation. It's worth noting that KNeoPix is fully compatible with the openKNX software, ensuring seamless integration and operation within the openKNX ecosystem.
 
 ### Hardware
 
@@ -26,4 +28,10 @@ The availability of a total of 6 direct and 2 isolated inputs and outputs (IOs) 
 
 The ability to operate both the external voltage at 3.3V/5V as a direct power supply and at 6V to 24V as a variable power supply provides maximum flexibility in configuring and using KNeoPix. This allows users to tailor the hardware to specific requirements and seamlessly integrate it into existing systems.
 
-KNeoPix is thus a powerful, flexible, and highly customizable solution for building automation and intelligent networking, built on a solid hardware foundation and innovative technology. With its diverse range of applications, KNeoPix is the ideal choice for DIY projects that require creativity and self-reliance.
+### Pin Compatibility
+
+Moreover, KNeoPix is pin-compatible with other XIAO series microcontrollers, such as the [XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) or [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html). This compatibility further extends its versatility and allows users to leverage existing hardware and resources for their projects.
+
+KNeoPix is thus a powerful, flexible, and highly customizable solution for building automation and intelligent networking, built on a solid hardware foundation and innovative technology. 
+
+With its diverse range of applications, KNeoPix is the ideal choice for DIY projects that require creativity and self-reliance.
