@@ -1,37 +1,191 @@
-` Documentation is in progress! `
+# OpenKNX - KNeoPix
 
-# OpenKNX KNeoPix
-
-![KNEOPIX](Documentation/Renderings/rendered_case_assemble_Step_0.png)
+<img src="Documentation/Pictures/KNeoPiX_a.png" alt="KNEOPIX" width="600">
 
 ## Preliminary Information about OpenKNX KNeoPix
 
-OpenKNX KNeoPix is an innovative hardware solution designed specifically for DIY (Do It Yourself) projects. It has been developed to provide enthusiasts and hobbyists with the opportunity to implement creative solutions in the field of building automation and intelligent networking. It's important to note that KNeoPix does not come with any warranties. This DIY orientation means that users take full responsibility for assembly, configuration, and operation. It's worth noting that KNeoPix is fully compatible with the openKNX software, ensuring seamless integration and operation within the openKNX ecosystem.
+The **OpenKNX KNeoPix** is a hardware solution designed specifically for DIY (Do It Yourself) projects in the realm of building automation and intelligent networking. Created for enthusiasts and hobbyists, it allows users to develop creative automation solutions. **KNeoPix** is a DIY product and does not come with any warranties. This means that users are responsible for assembly, configuration, and operation. **KNeoPix** is fully compatible with the **openKNX** software platform, ensuring seamless integration within the **OpenKNX** ecosystem.
 
 ### Hardware
 
-KNeoPix's hardware is based on either the [XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or the [XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) microcontroller, in conjunction with the [openKNX BCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU) platform. This platform enables a wide range of applications in the field of building automation and intelligent networking.
+The hardware of **KNeoPix** is based on either the [XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or the [XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) microcontroller. It works in conjunction with the [OpenKNX BCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU) platform, enabling a broad range of applications in building automation and smart home networking.
 
 ### Power Supply
 
-One of KNeoPix's standout features is its versatile power supply options. The hardware can be powered either directly via KNX bus voltage at 3.3V or 5V, allowing seamless integration into KNX-based building systems. Alternatively, KNeoPix can also be powered through an external voltage source ranging from 6V to 24V. This flexibility opens up a wide range of deployment possibilities and allows users to adapt KNeoPix to different requirements.
+A standout feature of **KNeoPix** is its flexible power supply options. It can be powered directly from the **KNX bus voltage** at either **3.3V** or **5V**, facilitating straightforward integration into KNX-based systems. Additionally, it can be powered via an external voltage source ranging from **6V to 24V**. This flexibility allows **KNeoPix** to accommodate a wide variety of installation scenarios and adapt to diverse system requirements.
 
 ### Galvanic Isolation
 
-Notably, when using an external voltage source, KNeoPix offers galvanic isolation from the KNX bus. This ensures a secure and reliable integration into KNX networks, protecting against potential electrical disturbances.
+When powered by an external voltage source, **KNeoPix** offers **galvanic isolation** from the KNX bus. This feature ensures a safe and reliable integration into KNX networks by protecting against electrical disturbances, enhancing overall system stability.
 
-### Inputs and Outputs (IOs)
+### Inputs and Outputs (I/Os)
 
-The availability of a total of 6 direct and 2 isolated inputs and outputs (IOs) offers a wide range of application possibilities. KNeoPix's primary function is to control RGB LEDs via the 2 isolated IOs, enabling the creation of captivating lighting effects in buildings. Additionally, the 6 direct IOs can be used for additional control tasks, making KNeoPix an incredibly versatile tool in building automation.
+**KNeoPix** provides a total of **6 direct** and **2 isolated** inputs and outputs (I/Os), offering versatile application possibilities. Its primary function is to control **RGB LEDs** via the two isolated I/Os, enabling captivating lighting effects for smart buildings. The six direct I/Os can be used for additional control tasks, making **KNeoPix** an incredibly flexible tool for various building automation purposes.
 
 ### Voltage Options
 
-The ability to operate both the external voltage at 3.3V/5V as a direct power supply and at 6V to 24V as a variable power supply provides maximum flexibility in configuring and using KNeoPix. This allows users to tailor the hardware to specific requirements and seamlessly integrate it into existing systems.
+**KNeoPix** supports multiple voltage configurations, operating both the external voltage at **3.3V/5V** as a direct power supply, or using **6V to 24V** as a variable power supply. This provides maximum flexibility in configuring and deploying the hardware to meet specific project requirements.
 
 ### Pin Compatibility
 
-Moreover, KNeoPix is pin-compatible with other XIAO series microcontrollers, such as the [XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) or [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html). This compatibility further extends its versatility and allows users to leverage existing hardware and resources for their projects.
+Another key feature of **KNeoPix** is its **pin compatibility** with other microcontrollers in the **XIAO series**, such as the [XIAO ESP32C3](https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html) and [XIAO ESP32S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html). This compatibility enhances its versatility, allowing users to take advantage of existing hardware for their projects and easily integrate with other XIAO boards.
 
-KNeoPix is thus a powerful, flexible, and highly customizable solution for building automation and intelligent networking, built on a solid hardware foundation and innovative technology. 
+## KNeoPiX Documentation
 
-With its diverse range of applications, KNeoPix is the ideal choice for DIY projects that require creativity and self-reliance.
+This documentation provides details about the KNeoPiX board and its components, including jumper settings, connections, power source options, and other related information.
+
+### 1. KNX Connection and Isolator
+
+The KNX connection and isolator section manages communication with the KNX bus. The relevant components in this section include:
+
+- **KNX+**: KNX positive voltage input.
+- **KNX-**: KNX negative voltage input.
+- **GN1**: KNX communication ground.
+- **ISO_IN** / **ISO_OUT**: Isolated I/O pins for communication between the KNX module and the rest of the circuit.
+
+### 2. Digital Isolator for GPIO4 & GPIO5
+
+This section uses the **ADuM1250** IC to isolate GPIO pins 4 and 5. The jumpers associated with this section are:
+
+- **R1, R2**: 0 Ohm jumpers.
+- **C4**: Capacitor for filtering.
+- **ISO_DATA_OUT**: Isolated data output.
+- **ISO_DATA_IN**: Isolated data input.
+
+### 3. Connections
+
+#### 3.1 Screw Terminal - Isolated I/Os
+
+- Provides isolated input/output connections.
+- **J4**: Terminal block for isolated I/O pins.
+
+#### 3.2 Screw Terminal - Non-Isolated I/Os
+
+- For non-isolated communication.
+- **J3**: Terminal block for non-isolated I/Os.
+
+#### 3.3 Prog Button
+
+- **SW1**: Programming button to interact with the microcontroller.
+
+#### 3.4 KNX Debug
+
+- Debug connections to monitor KNX communication signals.
+
+### 4. Jumpers - Power Source Selection
+
+#### 4.1 JP1 (GND KNX Voltage Input)
+
+- Jumper for KNX GND voltage input.
+
+#### 4.2 JP2 (3V3 KNX Voltage Input)
+
+- Jumper to select **3.3V** KNX voltage input.
+
+#### 4.3 JP5 (Select U2 and Input Voltage)
+
+- Jumper to select voltage source:
+  - **Bridge 1+2** for **3V3**.
+  - **Bridge 2+3** for **5V**.
+
+#### 4.4 JP6 (5V KNX Voltage Input)
+
+- Jumper for **5V** KNX voltage input.
+
+### 5. External VCC Input
+
+The external VCC input allows the board to be powered by an external DC power source (6-24V).
+
+- **JP3**: Select between **3.3V** or **5V** input from external power.
+- **U2 (LM2937IMP-3.3/5.0)**: Regulator to convert external voltage to either **3.3V** or **5V**.
+- **JP5**: Used to select the desired output voltage.
+  - **Bridge 1+2** for **3.3V** output.
+  - **Bridge 2+3** for **5V** output.
+
+### 6. Seeeduino XIAO Pinout
+
+The Seeeduino XIAO module is used as the microcontroller for the board. Here is a summary of the pinout:
+
+- **PA02/ADC/AIN0**: Analog input pin.
+- **PA03/ADC/AIN1**: Analog input pin.
+- **PA10**: Digital I/O pin.
+- **PA11**: Digital I/O pin.
+- **PA08**: Digital I/O pin.
+- **PA09**: Digital I/O pin.
+
+The Seeeduino XIAO supports multiple communication protocols such as **I2C**, **UART**, and **SPI**.
+
+### 7. Material
+
+- KNeoPix PCB can be Ordered from the OpenKNX-Community or you can manufacture (i.e.: [jlcpcb.com](https://jlcpcb.com/https:/) ) your own PCB using the BOM/CPL and GERBER from [Release Folder](Hardware/Release/v1.3/)
+
+
+  | Kommentar                         | Designator    | Footprint                                                                                |
+  | ----------------------------------- | --------------- | ------------------------------------------------------------------------------------------ |
+  | 100nF                             | C1,C2, C5, C6 | C 0805 2012 Metric                                                                       |
+  | 100nF 25V                         | C3            | C_0805 2012 Metric                                                                       |
+  | 10µf 16V                         | C4            | C 0805 2012 Metric                                                                       |
+  | OpenKNX_BCU                       | GN1           | NanoBCU (Optional: LowProfile )                                                          |
+  | ADuM1201AR / ADum1250             | U3            | SOIC-8 3.9x4.9mm P1.27mm                                                                 |
+  | Prog BTN                          | SW1           | SW Push 1P1T NO CK KMR2                                                                  |
+  | Seeeduino XIAO                    | U1            | [Seeeduino XIAO](https://www.seeedstudio.com/xiao-series-page) (Tested: RP2040 / SAMD21) |
+  | LM2937IMP-3.3 / 5.0               | U2 - Optional | SOT-223-3 Tab Pin2                                                                       |
+  | ADum1250                          | U4 - Optional | SOIC-8 3.9x4.9mm P1.27mm                                                                 |
+  | SMAJ40CA-13-F                     | D3 - Optional | D_SMA                                                                                    |
+  | Screw Terminal - Isolated IOs     | J4 - Optional | Terminal Block Phoenix MPT-0,5-4-2.54 1x04 P2.54mm Horizontal                            |
+  | Screw Terminal - Non Isolated IOs | J3 - Optional | TerminalBlock Phoenix MPT-0,5-9-2.54 1x09 P2.54mm Horizontal                             |
+  | Conn_01x05                        | J5 - Optional | JST SH BM05B-SRSS-TB 1x05-1MP P1.00mm Vertical                                           |
+  | Conn_01x05                        | J6 - Optional | PinHeader 1x05 P1.00mm Vertical                                                          |
+
+The [Schematic](/Documentation/Schematic_v1.3.pdf) provides all related and also additional Informations!
+
+### 8. Soldering
+
+- The final soldering targets (Designators) are all documented on the PCB.
+- Soldering sequence: Start with the smallest components (SMD Capacitors, ICs, passivce throuch-hole, connectors, transsistors, ...)
+
+  - <img src="Documentation/Renderings/20240918_200428_image.png" alt="TopView" width="200"> <img src="Documentation/Renderings/20240918_201923_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240918_200848_image.png" alt="TopView" width="200"> <img src="Documentation/Renderings/20240918_202029_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240919_130930_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240919_131056_image.png" alt="BotView" width="200">
+  - Finish by soldering larger components ( screw terminals).
+- Check all solder joints for proper connections and make sure no short circuits are present.
+
+### 9. Jumper Soldering / Power Source Selection Guide
+
+
+| **Use Case**                              | **Jumpers to Bridge**                 | **Additional Information**                                     |
+| ------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------- |
+| **KNX 3V3 ONLY**                          | JP1 → Bridge JP2 → Bridge           | JP3 → Bridge possible JP5 → Bridge 1+2 (3V3) possible        |
+| **KNX 5V ONLY**                           | JP1 → Bridge JP6 → Bridge           | JP3 → Bridge possible JP5 → Bridge 2+3 (5V) possible         |
+| **External 3V3 ONLY**                     | JP5 → Bridge 1+2 (3V3)               | **Do NOT Bridge:** JP1/JP2/JP3                                 |
+| **External 5V ONLY**                      | JP5 → Bridge 2+3 (5V)                | **Do NOT Bridge:** JP1/JP2/JP3                                 |
+| **EXTERNAL VCC IN (6–24V)**              | JP5 → Bridge 1+2 (for 3.3V output)   | LM2937IMP–3.3 out is 3V3                                      |
+|                                           | JP5 → Bridge 2+3 (for 5V output)     | LM2937IMP–5.0 out is 5V                                       |
+| **EXTERNAL VCC IN is 3V3**                | JP3 → Bridge JP2 → Bridge           | Be careful! Selected Voltage must fit the Jumper Settings.     |
+| **EXTERNAL VCC IN is 5V**                 | JP3 → Bridge JP6 → Bridge           |                                                                |
+| **EXTERNAL VCC IN to OUT (Special Case)** | JP3 → Bridge (for 5V or 3V3)         | External VCC will be used as OUT!**ONLY** use **KNX VCC ONLY** |
+| **Special Case**                          | JP5 → Bridge for selected EXT_VCC_IN | Use delivered KNX VCC without external power source            |
+
+**Note:** For **EXTERNAL VCC** input, you need to solder components U2, C3, C4.
+
+<img src="Documentation/Renderings/20240919_132300_image.png" alt="BotView" width="400">
+
+- **For External VCC Input**: Ensure that U2, C3, and C4 are soldered.
+- **Power Source Selection**: Always double-check the jumper settings before powering the board to avoid damaging components.
+
+---
+
+## 9. Enclosure / Case
+
+<img src="Documentation/Renderings/rendered_case_assemble_Step_0.png" alt="BotView" width="400"> <img src="Documentation/Renderings/rendered_case_assemble_Step_1.png" alt="BotView" width="400"> <img src="Documentation/Renderings/rendered_case_assemble_Step_2.png" alt="BotView" width="400">
+
+The **KNeoPix** enclosure consists of two parts and is available as an **STL file**. You can print it with your own 3D printer or through a service like **JLCPCB**. I recommend using **PETG** material for its durability and heat resistance, but you’re free to choose any material that fits your needs.
+
+The enclosure is designed to fit the fully assembled PCB perfectly. Only **four screws** are needed to secure everything. The assembly process is as follows:
+
+1. **Insert the PCB**: Slide the PCB into the case, starting with the **USB-C port** into its dedicated slot.
+2. **Attach the cover**: Once the PCB is in place, insert and secure the top cover.
+3. **Fit the KNX terminal**: After assembly, the KNX terminal will align perfectly.
+
+The enclosure has two openings:
+
+- One on the **top** for the **Prog button**.
+- One on the **bottom**, depending on whether you’re using the **ESP**, **RP2040**, or **SAMD21** version of the **XIAO**, for the **Boot** and **Reset buttons**, as well as the **LED**.
