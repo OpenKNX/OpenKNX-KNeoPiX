@@ -1,14 +1,18 @@
 # OpenKNX - KNeoPix
 
-<img src="Documentation/Pictures/KNeoPiX_a.png" alt="KNEOPIX" width="600">
+<img src="Documentation/Pictures/KNeoPiX_a.png" alt="KNEOPIX" width="60%">
 
 ## Preliminary Information about OpenKNX KNeoPix
 
-The **OpenKNX KNeoPix** is a hardware solution designed specifically for DIY (Do It Yourself) projects in the realm of building automation and intelligent networking. Created for enthusiasts and hobbyists, it allows users to develop creative automation solutions. **KNeoPix** is a DIY product and does not come with any warranties. This means that users are responsible for assembly, configuration, and operation. **KNeoPix** is fully compatible with the **openKNX** software platform, ensuring seamless integration within the **OpenKNX** ecosystem.
+The **OpenKNX KNeoPix** is a hardware solution designed specifically for DIY (Do It Yourself) projects in the realm of building automation and intelligent networking. Created for enthusiasts and hobbyists, it allows users to develop creative KNX automation solutions. **KNeoPix** is a DIY product and does not come with any warranties. This means that users are responsible for assembly, configuration, and operation. **KNeoPix** is fully compatible with the **openKNX** software platform, ensuring seamless integration within the **OpenKNX** ecosystem.
+
+Additionally, **KNeoPix** supports LED control, including **WS2815**, **SM16704**, and **SK6812** addressable LEDs, with voltage ranges from **3.3V to 24V**. Two isolated IOs are dedicated for this LED control, allowing for smooth management of lighting systems. Moreover, **6 direct IOs** are available for additional control purposes, making **KNeoPix** a versatile solution for various applications in building automation.
+
+<img src="Documentation/Renderings/info_connection.svg" alt="KNEOPIX" width="50%">
 
 ### Hardware
 
-The hardware of **KNeoPix** is based on either the [XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or the [XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) microcontroller. It works in conjunction with the [OpenKNX BCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU) platform, enabling a broad range of applications in building automation and smart home networking.
+The hardware of **KNeoPix** is based on either the [XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or the [XIAO SAMD21](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) microcontroller. It works in conjunction with the [OpenKNX BCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU) platform, enabling a broad range of applications in building KNX automation and smart home networking.
 
 ### Power Supply
 
@@ -33,6 +37,29 @@ Another key feature of **KNeoPix** is its **pin compatibility** with other micro
 ## KNeoPiX Documentation
 
 This documentation provides details about the KNeoPiX board and its components, including jumper settings, connections, power source options, and other related information.
+
+### Available IOs and Descriptions i.e. for XIAO RP2040 and SAMD21
+
+
+|  **IO Number**  | **<a href="Documentation/External/XIAO_RP2040_v1/XIAO RP2040 v1.22 SCH.pdf" target="_blank">XIAO RP2040 Pins</a>** | **<a href="Documentation/External/XIAO-SAMD21_V1/Seeeduino XIAO_v1.0_SCH_191112.pdf" target="_blank">SAMD21 Pins</a>** | **Description**                   |
+| :---------------: | :------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- | :---------------------------------- |
+|      D0**      | GPIO0 / A0                                                                                                         | GPIO0 / A0                                                                                                             | **Non-isolated IO - Prog Button** |
+|     **D1**     | GPIO1 / A1                                                                                                         | GPIO1 / A1                                                                                                             | **Non-isolated IO**               |
+|     **D2**     | GPIO2 / A2                                                                                                         | GPIO2 / A2                                                                                                             | **Non-isolated IO**               |
+|     **D3**     | GPIO3 / A3                                                                                                         | GPIO3 / A3                                                                                                             | **Non-isolated IO**               |
+|     **D4**     | GPIO4 / SDA                                                                                                        | GPIO4 / SDA                                                                                                            | **Isolated IO - NEO DATA0 OUT**   |
+|     **D5**     | GPIO5 / SCL                                                                                                        | GPIO5 / SCL                                                                                                            | **Isolated IO - NEO DATA1 OUT**   |
+|     **D6**     | GPIO6 / TX                                                                                                         | GPIO6 / TX                                                                                                             | **Isolated IO - to KNX RX**       |
+|     **D7**     | GPIO7 / RX                                                                                                         | GPIO7 / RX                                                                                                             | **Isolated IO - to KNX TX**       |
+|     **D8**     | GPIO8 / SCK                                                                                                        | GPIO8 / SCK                                                                                                            | **Non-isolated IO**               |
+|     **D9**     | GPIO9 / MISO                                                                                                       | GPIO9 / MISO                                                                                                           | **Non-isolated IO**               |
+|     **D10**     | GPI010 / MOSI                                                                                                      | GPI010 / MOSI                                                                                                          | **Non-isolated IO**               |
+| **OnBoard LED** | GPIO25 / RGB BLUE                                                                                                  | GPIO19 / BLUE                                                                                                          | **USER LED**                      |
+| **OnBoard LED** | GPIO16 / RGB GREEN                                                                                                 | GPIO18 / BLUE                                                                                                          | **USER LED**                      |
+| **OnBoard LED** | GPIO17 / RGB RED                                                                                                   | GPIO17 / YELLOW                                                                                                        | **USER LED**                      |
+|    NEOPIXEL    | GPIO12 / RGB NEOPIXEL                                                                                              | N/A                                                                                                                    | **Onboard NEOPIXEL RGB LED**      |
+|     **SWD**     | SWDIO, SWCLK, RST                                                                                                  | SWDIO, SWCLK, RST                                                                                                      | **Debugging Interface**           |
+| **Prog Button** | GPIO26 (RUN)                                                                                                       | PA15 (RUN)                                                                                                             | **Program Button Interface**      |
 
 ### 1. KNX Connection and Isolator
 
@@ -68,7 +95,7 @@ This section uses the **ADuM1250** IC to isolate GPIO pins 4 and 5. The jumpers 
 
 - **SW1**: Programming button to interact with the microcontroller.
 
-#### 3.4 KNX Debug
+#### 3.4 OpenKNX Debug
 
 - Debug connections to monitor KNX communication signals.
 
@@ -102,22 +129,9 @@ The external VCC input allows the board to be powered by an external DC power so
   - **Bridge 1+2** for **3.3V** output.
   - **Bridge 2+3** for **5V** output.
 
-### 6. Seeeduino XIAO Pinout
-
-The Seeeduino XIAO module is used as the microcontroller for the board. Here is a summary of the pinout:
-
-- **PA02/ADC/AIN0**: Analog input pin.
-- **PA03/ADC/AIN1**: Analog input pin.
-- **PA10**: Digital I/O pin.
-- **PA11**: Digital I/O pin.
-- **PA08**: Digital I/O pin.
-- **PA09**: Digital I/O pin.
-
-The Seeeduino XIAO supports multiple communication protocols such as **I2C**, **UART**, and **SPI**.
-
 ### 7. Material
 
-- KNeoPix PCB can be Ordered from the OpenKNX-Community or you can manufacture (i.e.: [jlcpcb.com](https://jlcpcb.com/https:/) ) your own PCB using the BOM/CPL and GERBER from [Release Folder](Hardware/Release/v1.3/)
+- KNeoPix PCB can be Ordered from the [OpenKNX-Community](https://github.com/OpenKNX/OpenKNX/wiki/Device-Overview) or you can manufacture (i.e.: [jlcpcb.com](https://jlcpcb.com/https:/) ) your own PCB using the BOM/CPL and GERBER from [Release Folder](Hardware/Release/v1.3/)
 
 
   | Kommentar                         | Designator    | Footprint                                                                                |
@@ -125,7 +139,7 @@ The Seeeduino XIAO supports multiple communication protocols such as **I2C**, **
   | 100nF                             | C1,C2, C5, C6 | C 0805 2012 Metric                                                                       |
   | 100nF 25V                         | C3            | C_0805 2012 Metric                                                                       |
   | 10µf 16V                         | C4            | C 0805 2012 Metric                                                                       |
-  | OpenKNX_BCU                       | GN1           | NanoBCU (Optional: LowProfile )                                                          |
+  | OpenKNX_BCU                       | GN1           | [NanoBCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU) (Optional: LowProfile )       |
   | ADuM1201AR / ADum1250             | U3            | SOIC-8 3.9x4.9mm P1.27mm                                                                 |
   | Prog BTN                          | SW1           | SW Push 1P1T NO CK KMR2                                                                  |
   | Seeeduino XIAO                    | U1            | [Seeeduino XIAO](https://www.seeedstudio.com/xiao-series-page) (Tested: RP2040 / SAMD21) |
@@ -141,11 +155,17 @@ The [Schematic](/Documentation/Schematic_v1.3.pdf) provides all related and also
 
 ### 8. Soldering
 
-- The final soldering targets (Designators) are all documented on the PCB.
+The final soldering targets (Designators) are all documented on the PCB. You must align the board with solder pads from XIAO to ensure that the board is properly aligned with XIAO.
+It is best to use the markings provided for this purpose and the solder pap holes, which can then be seen on the top of the circuit board. It is best to use an adhesive strip to fix the circuit board and XIAO in place.
+
 - Soldering sequence: Start with the smallest components (SMD Capacitors, ICs, passivce throuch-hole, connectors, transsistors, ...)
+  Here the Soldering Example, from left to right.
 
   - <img src="Documentation/Renderings/20240918_200428_image.png" alt="TopView" width="200"> <img src="Documentation/Renderings/20240918_201923_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240918_200848_image.png" alt="TopView" width="200"> <img src="Documentation/Renderings/20240918_202029_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240919_130930_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240919_131056_image.png" alt="BotView" width="200">
-  - Finish by soldering larger components ( screw terminals).
+  - To solder the debug interface connections, you should solder the designated holes. Be careful not to create any solder bridges between RESET, GND, SWDIO, and SWCLK. These connections are optional.
+
+    <img src="Documentation/Renderings/20240920_210707_image.png" alt="BotView" width="400">
+- Finish by soldering larger components ( screw terminals).
 - Check all solder joints for proper connections and make sure no short circuits are present.
 
 ### 9. Jumper Soldering / Power Source Selection Guide
@@ -175,11 +195,16 @@ The [Schematic](/Documentation/Schematic_v1.3.pdf) provides all related and also
 
 ## 9. Enclosure / Case
 
-<img src="Documentation/Renderings/rendered_case_assemble_Step_0.png" alt="BotView" width="400"> <img src="Documentation/Renderings/rendered_case_assemble_Step_1.png" alt="BotView" width="400"> <img src="Documentation/Renderings/rendered_case_assemble_Step_2.png" alt="BotView" width="400">
-
 The **KNeoPix** enclosure consists of two parts and is available as an **STL file**. You can print it with your own 3D printer or through a service like **JLCPCB**. I recommend using **PETG** material for its durability and heat resistance, but you’re free to choose any material that fits your needs.
 
-The enclosure is designed to fit the fully assembled PCB perfectly. Only **four screws** are needed to secure everything. The assembly process is as follows:
+<img src="Documentation/Renderings/rendered_case_dimensions.png" alt="BotView" width="400">
+
+The enclosure is designed to fit the fully assembled PCB perfectly. Only **four screws** are needed to secure everything.
+
+**The assembly process is as follows:**
+
+<img src="Documentation/Renderings/rendered_case_assemble_Step_0.png" alt="BotView" width="20%"> <img src="Documentation/Renderings/rendered_case_assemble_Step_1.png" alt="BotView" width="20%"> 
+<img src="Documentation/Renderings/rendered_case_assemble_Step_2.png" alt="BotView" width="20%">
 
 1. **Insert the PCB**: Slide the PCB into the case, starting with the **USB-C port** into its dedicated slot.
 2. **Attach the cover**: Once the PCB is in place, insert and secure the top cover.
@@ -188,4 +213,4 @@ The enclosure is designed to fit the fully assembled PCB perfectly. Only **four 
 The enclosure has two openings:
 
 - One on the **top** for the **Prog button**.
-- One on the **bottom**, depending on whether you’re using the **ESP**, **RP2040**, or **SAMD21** version of the **XIAO**, for the **Boot** and **Reset buttons**, as well as the **LED**.
+- One on the **bottom**, depending on whether you’re using the **ESP**, **RP2040**, or **SAMD21** version of the **XIAO**, for the **Boot** and **Reset buttons**, as well as the **LEDs**.
