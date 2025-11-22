@@ -40,149 +40,86 @@ This documentation provides details about the KNeoPiX board and its components, 
 
 ### Available IOs and Descriptions i.e. for XIAO RP2040 and SAMD21
 
-
-|  **IO Number**  | **<a href="Documentation/External/XIAO_RP2040_v1/XIAO RP2040 v1.22 SCH.pdf" target="_blank">XIAO RP2040 Pins</a>** | **<a href="Documentation/External/XIAO-SAMD21_V1/Seeeduino XIAO_v1.0_SCH_191112.pdf" target="_blank">SAMD21 Pins</a>** | **Description**                   |
-| :---------------: | :------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- | :---------------------------------- |
-|      D0**      | GPIO0 / A0                                                                                                         | GPIO0 / A0                                                                                                             | **Non-isolated IO - Prog Button** |
-|     **D1**     | GPIO1 / A1                                                                                                         | GPIO1 / A1                                                                                                             | **Non-isolated IO**               |
-|     **D2**     | GPIO2 / A2                                                                                                         | GPIO2 / A2                                                                                                             | **Non-isolated IO**               |
-|     **D3**     | GPIO3 / A3                                                                                                         | GPIO3 / A3                                                                                                             | **Non-isolated IO**               |
-|     **D4**     | GPIO4 / SDA                                                                                                        | GPIO4 / SDA                                                                                                            | **Isolated IO - NEO DATA0 OUT**   |
-|     **D5**     | GPIO5 / SCL                                                                                                        | GPIO5 / SCL                                                                                                            | **Isolated IO - NEO DATA1 OUT**   |
-|     **D6**     | GPIO6 / TX                                                                                                         | GPIO6 / TX                                                                                                             | **Isolated IO - to KNX RX**       |
-|     **D7**     | GPIO7 / RX                                                                                                         | GPIO7 / RX                                                                                                             | **Isolated IO - to KNX TX**       |
-|     **D8**     | GPIO8 / SCK                                                                                                        | GPIO8 / SCK                                                                                                            | **Non-isolated IO**               |
-|     **D9**     | GPIO9 / MISO                                                                                                       | GPIO9 / MISO                                                                                                           | **Non-isolated IO**               |
-|     **D10**     | GPI010 / MOSI                                                                                                      | GPI010 / MOSI                                                                                                          | **Non-isolated IO**               |
-| **OnBoard LED** | GPIO25 / RGB BLUE                                                                                                  | GPIO19 / BLUE                                                                                                          | **USER LED**                      |
-| **OnBoard LED** | GPIO16 / RGB GREEN                                                                                                 | GPIO18 / BLUE                                                                                                          | **USER LED**                      |
-| **OnBoard LED** | GPIO17 / RGB RED                                                                                                   | GPIO17 / YELLOW                                                                                                        | **USER LED**                      |
-|    NEOPIXEL    | GPIO12 / RGB NEOPIXEL                                                                                              | N/A                                                                                                                    | **Onboard NEOPIXEL RGB LED**      |
-|     **SWD**     | SWDIO, SWCLK, RST                                                                                                  | SWDIO, SWCLK, RST                                                                                                      | **Debugging Interface**           |
-| **Prog Button** | GPIO26 (RUN)                                                                                                       | PA15 (RUN)                                                                                                             | **Program Button Interface**      |
-
-### 1. KNX Connection and Isolator
-
-The KNX connection and isolator section manages communication with the KNX bus. The relevant components in this section include:
-
-- **KNX+**: KNX positive voltage input.
-- **KNX-**: KNX negative voltage input.
-- **GN1**: KNX communication ground.
-- **ISO_IN** / **ISO_OUT**: Isolated I/O pins for communication between the KNX module and the rest of the circuit.
-
-### 2. Digital Isolator for GPIO4 & GPIO5
-
-This section uses the **ADuM1250** IC to isolate GPIO pins 4 and 5. The jumpers associated with this section are:
-
-- **R1, R2**: 0 Ohm jumpers.
-- **C4**: Capacitor for filtering.
-- **ISO_DATA_OUT**: Isolated data output.
-- **ISO_DATA_IN**: Isolated data input.
-
-### 3. Connections
-
-#### 3.1 Screw Terminal - Isolated I/Os
-
-- Provides isolated input/output connections.
-- **J4**: Terminal block for isolated I/O pins.
-
-#### 3.2 Screw Terminal - Non-Isolated I/Os
-
-- For non-isolated communication.
-- **J3**: Terminal block for non-isolated I/Os.
-
-#### 3.3 Prog Button
-
-- **SW1**: Programming button to interact with the microcontroller.
-
-#### 3.4 OpenKNX Debug
-
-- Debug connections to monitor KNX communication signals.
-
-### 4. Jumpers - Power Source Selection
-
-#### 4.1 JP1 (GND KNX Voltage Input)
-
-- Jumper for KNX GND voltage input.
-
-#### 4.2 JP2 (3V3 KNX Voltage Input)
-
-- Jumper to select **3.3V** KNX voltage input.
-
-#### 4.3 JP5 (Select U2 and Input Voltage)
-
-- Jumper to select voltage source:
-  - **Bridge 1+2** for **3V3**.
-  - **Bridge 2+3** for **5V**.
-
-#### 4.4 JP6 (5V KNX Voltage Input)
-
-- Jumper for **5V** KNX voltage input.
-
-### 5. External VCC Input
-
-The external VCC input allows the board to be powered by an external DC power source (6-24V).
-
-- **JP3**: Select between **3.3V** or **5V** input from external power.
-- **U2 (LM2937IMP-3.3/5.0)**: Regulator to convert external voltage to either **3.3V** or **5V**.
-- **JP5**: Used to select the desired output voltage.
-  - **Bridge 1+2** for **3.3V** output.
-  - **Bridge 2+3** for **5V** output.
-
-### 7. Material
-
-- KNeoPix PCB can be Ordered from the [OpenKNX-Community](https://github.com/OpenKNX/OpenKNX/wiki/Device-Overview) or you can manufacture (i.e.: [jlcpcb.com](https://jlcpcb.com/https:/) ) your own PCB using the BOM/CPL and GERBER from [Release Folder](Hardware/Release/v1.3/)
+|  **IO Number**  | **``XIAO RP2040 Pins``** | **``SAMD21 Pins``** | **Description**                   |
+| :-------------------: | :------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
+|         D0**         | GPIO0 / A0                                                                                                                       | GPIO0 / A0                                                                                                                           | **Non-isolated IO - Prog Button** |
+|     **D1**     | GPIO1 / A1                                                                                                                       | GPIO1 / A1                                                                                                                           | **Non-isolated IO**               |
+|     **D2**     | GPIO2 / A2                                                                                                                       | GPIO2 / A2                                                                                                                           | **Non-isolated IO**               |
+|     **D3**     | GPIO3 / A3                                                                                                                       | GPIO3 / A3                                                                                                                           | **Non-isolated IO**               |
+|     **D4**     | GPIO4 / SDA                                                                                                                      | GPIO4 / SDA                                                                                                                          | **Isolated IO - NEO DATA0 OUT**   |
+|     **D5**     | GPIO5 / SCL                                                                                                                      | GPIO5 / SCL                                                                                                                          | **Isolated IO - NEO DATA1 OUT**   |
+|     **D6**     | GPIO6 / TX                                                                                                                       | GPIO6 / TX                                                                                                                           | **Isolated IO - to KNX RX**       |
+|     **D7**     | GPIO7 / RX                                                                                                                       | GPIO7 / RX                                                                                                                           | **Isolated IO - to KNX TX**       |
+|     **D8**     | GPIO8 / SCK                                                                                                                      | GPIO8 / SCK                                                                                                                          | **Non-isolated IO**               |
+|     **D9**     | GPIO9 / MISO                                                                                                                     | GPIO9 / MISO                                                                                                                         | **Non-isolated IO**               |
+|     **D10**     | GPI010 / MOSI                                                                                                                    | GPI010 / MOSI                                                                                                                        | **Non-isolated IO**               |
+| **OnBoard LED** | GPIO25 / RGB BLUE                                                                                                                | GPIO19 / BLUE                                                                                                                        | **USER LED**                      |
+| **OnBoard LED** | GPIO16 / RGB GREEN                                                                                                               | GPIO18 / BLUE                                                                                                                        | **USER LED**                      |
+| **OnBoard LED** | GPIO17 / RGB RED                                                                                                                 | GPIO17 / YELLOW                                                                                                                      | **USER LED**                      |
+|       NEOPIXEL       | GPIO12 / RGB NEOPIXEL                                                                                                            | N/A                                                                                                                                  | **Onboard NEOPIXEL RGB LED**      |
+|     **SWD**     | SWDIO, SWCLK, RST                                                                                                                | SWDIO, SWCLK, RST                                                                                                                    | **Debugging Interface**           |
+| **Prog Button** | GPIO26 (RUN)                                                                                                                     | PA15 (RUN)                                                                                                                           | **Program Button Interface**      |
 
 
-  | Kommentar                         | Designator    | Footprint                                                                                |
-  | ----------------------------------- | --------------- | ------------------------------------------------------------------------------------------ |
-  | 100nF                             | C1,C2, C5, C6 | C 0805 2012 Metric                                                                       |
-  | 100nF 25V                         | C3            | C_0805 2012 Metric                                                                       |
-  | 10µf 16V                         | C4            | C 0805 2012 Metric                                                                       |
-  | OpenKNX_BCU                       | GN1           | [NanoBCU](https://github.com/OpenKNX/OpenKNX/wiki/NanoBCU) (Optional: LowProfile )       |
-  | ADuM1201AR / ADum1250             | U3            | SOIC-8 3.9x4.9mm P1.27mm                                                                 |
-  | Prog BTN                          | SW1           | SW Push 1P1T NO CK KMR2                                                                  |
-  | Seeeduino XIAO                    | U1            | [Seeeduino XIAO](https://www.seeedstudio.com/xiao-series-page) (Tested: RP2040 / SAMD21) |
-  | LM2937IMP-3.3 / 5.0               | U2 - Optional | SOT-223-3 Tab Pin2                                                                       |
-  | ADum1250                          | U4 - Optional | SOIC-8 3.9x4.9mm P1.27mm                                                                 |
-  | SMAJ40CA-13-F                     | D3 - Optional | D_SMA                                                                                    |
-  | Screw Terminal - Isolated IOs     | J4 - Optional | Terminal Block Phoenix MPT-0,5-4-2.54 1x04 P2.54mm Horizontal                            |
-  | Screw Terminal - Non Isolated IOs | J3 - Optional | TerminalBlock Phoenix MPT-0,5-9-2.54 1x09 P2.54mm Horizontal                             |
-  | Conn_01x05                        | J5 - Optional | JST SH BM05B-SRSS-TB 1x05-1MP P1.00mm Vertical                                           |
-  | Conn_01x05                        | J6 - Optional | PinHeader 1x05 P1.00mm Vertical                                                          |
+### Material
+
+KNeoPix PCB can be Ordered from the [OpenKNX-Community](https://github.com/OpenKNX/OpenKNX/wiki/Device-Overview) or you can manufacture (i.e.: [jlcpcb.com](https://jlcpcb.com/) ) your own PCB using the BOM/CPL and GERBER from [Release Folder](Hardware/Release/v1.3/)
 
 The [Schematic](/Documentation/Schematic_v1.3.pdf) provides all related and also additional Informations!
 
-### 8. Soldering
+### Soldering
 
 The final soldering targets (Designators) are all documented on the PCB. You must align the board with solder pads from XIAO to ensure that the board is properly aligned with XIAO.
 It is best to use the markings provided for this purpose and the solder pap holes, which can then be seen on the top of the circuit board. It is best to use an adhesive strip to fix the circuit board and XIAO in place.
 
 - Soldering sequence: Start with the smallest components (SMD Capacitors, ICs, passivce throuch-hole, connectors, transsistors, ...)
   Here the Soldering Example, from left to right.
-
+  
   - <img src="Documentation/Renderings/20240918_200428_image.png" alt="TopView" width="200"> <img src="Documentation/Renderings/20240918_201923_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240918_200848_image.png" alt="TopView" width="200"> <img src="Documentation/Renderings/20240918_202029_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240919_130930_image.png" alt="BotView" width="200"> <img src="Documentation/Renderings/20240919_131056_image.png" alt="BotView" width="200">
   - To solder the debug interface connections, you should solder the designated holes. Be careful not to create any solder bridges between RESET, GND, SWDIO, and SWCLK. These connections are optional.
-
+    
     <img src="Documentation/Renderings/20240920_210707_image.png" alt="BotView" width="400">
 - Finish by soldering larger components ( screw terminals).
 - Check all solder joints for proper connections and make sure no short circuits are present.
 
-### 9. Jumper Soldering / Power Source Selection Guide
+## Jumper Soldering / Power Source Selection Guide
 
+- **R1, R2 and R3, R4**: 0 Ohm. Bridge them if you do not wan't to use the isolators.
+- **J4** Screw Terminal block of Isolated I/Os and Voltage IN/OUT
+- **J3**: Screw Terminal block for non-isolated I/Os and Volteage OUT
+- **SW1**: Programming button (KNX Pro Button) to interact with the microcontroller.
+- **Debug** Connection to monitor / Debug the microcontroller.
+  **JP1** GND KNX Voltage Selection
+- **JP2** **3.3V** KNX Input Voltage.
+- **JP5** Select U2 and Input Voltage. Jumper to select voltage source:
+  - **Bridge 1+2** for**3V3**.
+  - **Bridge 2+3** for**5V**.
+- **JP6** **5V** KNX Input Voltage
 
-| **Use Case**                              | **Jumpers to Bridge**                 | **Additional Information**                                     |
-| ------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------- |
-| **KNX 3V3 ONLY**                          | JP1 → Bridge JP2 → Bridge           | JP3 → Bridge possible JP5 → Bridge 1+2 (3V3) possible        |
-| **KNX 5V ONLY**                           | JP1 → Bridge JP6 → Bridge           | JP3 → Bridge possible JP5 → Bridge 2+3 (5V) possible         |
-| **External 3V3 ONLY**                     | JP5 → Bridge 1+2 (3V3)               | **Do NOT Bridge:** JP1/JP2/JP3                                 |
-| **External 5V ONLY**                      | JP5 → Bridge 2+3 (5V)                | **Do NOT Bridge:** JP1/JP2/JP3                                 |
-| **EXTERNAL VCC IN (6–24V)**              | JP5 → Bridge 1+2 (for 3.3V output)   | LM2937IMP–3.3 out is 3V3                                      |
-|                                           | JP5 → Bridge 2+3 (for 5V output)     | LM2937IMP–5.0 out is 5V                                       |
-| **EXTERNAL VCC IN is 3V3**                | JP3 → Bridge JP2 → Bridge           | Be careful! Selected Voltage must fit the Jumper Settings.     |
-| **EXTERNAL VCC IN is 5V**                 | JP3 → Bridge JP6 → Bridge           |                                                                |
+**External VCC input** allows the board to be powered by an external DC power source (6-24V):
+
+- **JP3**: Select between**3.3V** or**5V** input from external power.
+- **U2 (LM2937IMP-3.3/5.0)**: convertd external voltage to either **3.3V** or **5V**.
+- **JP5**: Used to select the desired output voltage.
+  - **Bridge 1+2** for**3.3V** output.
+  - **Bridge 2+3** for**5V** output.
+
+### Jumper Setting Table
+
+**Attention:** You can not combine the use cases. Only **one** use case in the following table is valid.
+
+| **Use Case**                              | **Jumpers to Bridge**           | **Additional Information**                                           |
+| ----------------------------------------------- | ------------------------------------- | -------------------------------------------------------------------------- |
+| **KNX 3V3 ONLY**                          | JP1 → Bridge JP2 → Bridge           | JP3 → Bridge possible JP5 → Bridge 1+2 (3V3) possible                    |
+| **KNX 5V ONLY**                           | JP1 → Bridge JP6 → Bridge           | JP3 → Bridge possible JP5 → Bridge 2+3 (5V) possible                     |
+| **External 3V3 ONLY**                     | JP5 → Bridge 1+2 (3V3)               | **Do NOT Bridge:** JP1/JP2/JP3                                       |
+| **External 5V ONLY**                      | JP5 → Bridge 2+3 (5V)                | **Do NOT Bridge:** JP1/JP2/JP3                                       |
+| **EXTERNAL VCC IN (6–24V)**              | JP5 → Bridge 1+2 (for 3.3V output)   | LM2937IMP–3.3 out is 3V3                                                  |
+|                                                 | JP5 → Bridge 2+3 (for 5V output)     | LM2937IMP–5.0 out is 5V                                                   |
+| **EXTERNAL VCC IN is 3V3**                | JP3 → Bridge JP2 → Bridge           | Be careful! Selected Voltage must fit the Jumper Settings.                 |
+| **EXTERNAL VCC IN is 5V**                 | JP3 → Bridge JP6 → Bridge           |                                                                            |
 | **EXTERNAL VCC IN to OUT (Special Case)** | JP3 → Bridge (for 5V or 3V3)         | External VCC will be used as OUT!**ONLY** use **KNX VCC ONLY** |
-| **Special Case**                          | JP5 → Bridge for selected EXT_VCC_IN | Use delivered KNX VCC without external power source            |
+| **Special Case**                          | JP5 → Bridge for selected EXT_VCC_IN | Use delivered KNX VCC without external power source                        |
 
 **Note:** For **EXTERNAL VCC** input, you need to solder components U2, C3, C4.
 
@@ -193,9 +130,9 @@ It is best to use the markings provided for this purpose and the solder pap hole
 
 ---
 
-## 9. Enclosure / Case
+## Enclosure / Case
 
-The **KNeoPix** enclosure consists of two parts and is available as an **STL file**. You can print it with your own 3D printer or through a service like **JLCPCB**. I recommend using **PETG** material for its durability and heat resistance, but you’re free to choose any material that fits your needs.
+The **KNeoPix** enclosure consists of two parts and the are available as **STL files**: [TOP Case](Hardware/CAD-Files/Release/Case-Deckel_rp2040.stl)and [Button Case](Hardware/CAD-Files/Release/Case-Gehäuse_rp2040.stl). You can print it with your own 3D printer or through a service like **JLCPCB**. I recommend using **PETG** material for its durability and heat resistance, but you’re free to choose any material that fits your needs.
 
 <img src="Documentation/Renderings/rendered_case_dimensions.png" alt="BotView" width="400">
 
@@ -206,11 +143,12 @@ The enclosure is designed to fit the fully assembled PCB perfectly. Only **four 
 <img src="Documentation/Renderings/rendered_case_assemble_Step_0.png" alt="BotView" width="20%"> <img src="Documentation/Renderings/rendered_case_assemble_Step_1.png" alt="BotView" width="20%"> 
 <img src="Documentation/Renderings/rendered_case_assemble_Step_2.png" alt="BotView" width="20%">
 
-1. **Insert the PCB**: Slide the PCB into the case, starting with the **USB-C port** into its dedicated slot.
+1. **Insert the PCB**: Slide the PCB into the case, starting with the**USB-C port** into its dedicated slot.
 2. **Attach the cover**: Once the PCB is in place, insert and secure the top cover.
 3. **Fit the KNX terminal**: After assembly, the KNX terminal will align perfectly.
 
 The enclosure has two openings:
 
-- One on the **top** for the **Prog button**.
-- One on the **bottom**, depending on whether you’re using the **ESP**, **RP2040**, or **SAMD21** version of the **XIAO**, for the **Boot** and **Reset buttons**, as well as the **LEDs**.
+- One on the**top** for the**Prog button**.
+- One on the**bottom**, depending on whether you’re using the**ESP**,**RP2040**, or**SAMD21** version of the**XIAO**, for the**Boot** and**Reset buttons**, as well as the**LEDs**.
+
