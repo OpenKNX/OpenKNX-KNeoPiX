@@ -1,0 +1,34 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF/16v,C_01005_0402Metric,59.69,-49.42,0.0,top
+C10,22uf/16V,C_0805_2012Metric,59.74,-47.11,90.0,top
+C2,100nF/16v,C_01005_0402Metric,58.42,-50.55,90.0,top
+C3,100nF/16v,C_01005_0402Metric,57.404,-50.042,-90.0,top
+C4,100nF/16v,C_01005_0402Metric,57.31,-46.36,90.0,top
+C5,100nF/16v,C_01005_0402Metric,69.0,-57.06,90.0,top
+C6,10uf/50V,C_0805_2012Metric,66.01,-47.11,90.0,top
+C7,10uf/50V,C_0805_2012Metric,64.01,-47.11,90.0,top
+C8,100nF/50v,C_0805_2012Metric,61.95,-63.49,0.0,top
+C9,22uf/16V,C_0805_2012Metric,61.9,-47.11,-90.0,top
+D1,DIODE SCHOTTKY 40V SOD-323HE,SOD-323_L1.7-W1.3-LS2.6-RD-1,70.33,-63.59,0.0,top
+D2,DIODE SCHOTTKY 40V SOD-323HE,SOD-323_L1.7-W1.3-LS2.6-RD-1,65.66,-63.59,0.0,top
+GN1,OpenKNX_BCU,NanoBCU_PinSocket_LowProfile,49.6564,-54.1734,180.0,top
+H1,243-131,243131,51.0164,-68.1634,0.0,top
+H2,243-131,243131,56.7664,-68.1634,0.0,top
+J1,Conn_KNX,KNX_Connector,53.8714,-68.1434,90.0,top
+J2,Conn_KNX,KNX_Connector_Light,53.8914,-71.0634,90.0,top
+J3,Screw Terminal - Isolated IOs,"TerminalBlock_Phoenix_MPT-0,5-9-2.54_1x09_P2.54mm_Horizontal",60.6264,-41.7534,180.0,top
+J4,Screw Terminal - Isolated IOs,"TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal",67.4914,-71.5934,0.0,top
+J5,~,JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical,68.1414,-66.535,0.0,top
+JP1,KNX GND Input,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,70.92,-67.15,270.0,bottom
+JP2,EXT Input Voltage,SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,67.44,-66.51,270.0,bottom
+JP4,KNX Pin SAVE - Optional,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,50.63,-64.84,180.0,bottom
+JP5,SolderJumper_3_Bridged12,SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm,63.9625,-66.51,90.0,bottom
+L1,CR5040-4R7M,IND-SMD_L5.0-W5.0,66.04,-59.62,-90.0,top
+REF1,LOGO,OpenKNX_Logo_05x03,53.705089,-69.81406,90.0,bottom
+REF2,LOGO,OpenKNX_Logo_07x05,61.58,-53.287371,90.0,bottom
+REF42,KNeoPix - Logo,KNeoPix - Logo,60.235825,-69.0434,90.0,bottom
+SW1,PROG BUTTON,KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6,71.01,-59.2,90.0,top
+U1,Seeeduino XIAO,Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM-no-15-16-17-18-19-20-pad,62.792907,-53.300014,90.0,bottom
+U2,TXS0108EPWR,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,55.62,-58.76,90.0,top
+U3,ADUM1250ARZ-RL7 - (ADuM1201AR / ADum1250AR) AR suffix required,SOIC-8_3.9x4.9mm_P1.27mm,54.2164,-49.0934,90.0,top
+U5,AP63205WU-7,TSOT-26_L2.9-W1.6-P0.95-LS2.8-BL,70.27,-48.02,0.0,top
