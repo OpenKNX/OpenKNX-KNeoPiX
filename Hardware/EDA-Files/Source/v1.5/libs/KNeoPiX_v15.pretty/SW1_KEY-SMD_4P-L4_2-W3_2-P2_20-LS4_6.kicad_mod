@@ -1,0 +1,235 @@
+(footprint "SW1_KEY-SMD_4P-L4_2-W3_2-P2_20-LS4_6"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "SW1"
+		(at 0 -5.07 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82ba2db6-645d-4f95-b9b6-cb72d1bd2253")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "PROG BUTTON"
+		(at 0.02 1.62 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2c4a822-219a-4c7d-b7e5-63e7f15a84b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/partdetail/C139797"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a08ed2c7-3c0a-4bb4-86dd-efc4674fb1f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Progbutton"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2c3c90d-516a-42f9-b11b-0a9ecc7c39ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C139797"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74ad070b-4fc3-4f83-be37-f5089d6ba701")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field6" "PROG"
+		(at -0.45 0.01 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "37f329e1-fbd6-4d51-8dc4-8f14761dc5e1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "SKRPACE010"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79d73378-4b01-4a85-96fe-3c380591b52f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "KNeoPiX_v1.5.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.2 -0.54)
+		(end -2.2 0.54)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6fccf22-30cf-41e2-bdbf-d6cfc2f9786e")
+	)
+	(fp_line
+		(start -1.38 1.55)
+		(end 1.38 1.55)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4afd7c8-8071-44d8-a57e-8afb5ee768a2")
+	)
+	(fp_line
+		(start -0.51 -1.02)
+		(end 0.51 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6621fc7b-3fb6-466f-8225-1b5cd8192026")
+	)
+	(fp_line
+		(start -0.51 1.02)
+		(end 0.51 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90e368c6-b78a-4eb0-8fe1-e7cbec11164a")
+	)
+	(fp_line
+		(start 1.37 -1.52)
+		(end -1.37 -1.52)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92e8125c-d1e3-4da6-a780-1ed92ef75c04")
+	)
+	(fp_line
+		(start 2.2 -0.54)
+		(end 2.2 0.54)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e304f5d-4c7a-4071-998e-e4da1e399372")
+	)
+	(fp_arc
+		(start -0.51 1.02)
+		(mid -1.53 0)
+		(end -0.51 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84b9f87a-7828-4fdb-90c8-86b531e7c425")
+	)
+	(fp_arc
+		(start 0.51 -1.02)
+		(mid 1.53 0)
+		(end 0.51 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7823a663-b0d7-4ba2-b3d2-e5ae4c0bd281")
+	)
+	(fp_circle
+		(center -2.3 -1.6)
+		(end -2.27 -1.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "509c3107-ee62-4000-a571-528316f76915")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1ca3d32c-3e40-404a-b77e-0f2fa4b63e64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 -1.07)
+		(size 1.05 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a982c1b-afee-41e4-b9eb-2d2c01d1150e")
+	)
+	(pad "2" smd rect
+		(at 2.1 -1.07)
+		(size 1.05 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "89c7ed91-1ca3-41f6-8ff4-30c2abbc463d")
+	)
+	(pad "3" smd rect
+		(at -2.1 1.07)
+		(size 1.05 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d7041d7-bf6a-40bf-aba7-b64d14947eab")
+	)
+	(pad "4" smd rect
+		(at 2.1 1.07)
+		(size 1.05 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d1600641-2009-40c8-b4e4-116f007d7417")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/KNeoPiX_v15.3dshapes/KEY-SMD_4P-L4.2-W3.2-H2.5-LS4.6-P2.2.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

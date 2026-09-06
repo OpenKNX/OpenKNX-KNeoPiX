@@ -1,0 +1,29 @@
+Designator,Value,Manufacturer part,LCSC/JLCPCB code,Package,Assembly,Catalogue URL
+C1,100nF/16V,CL05B104KO5NNNC,C1525,0402,SMT,https://jlcpcb.com/partdetail/C1525
+C10,22uf/16V,CL21A226MOQNNNE,C98190,0805,SMT,https://jlcpcb.com/partdetail/C98190
+C2,100nF/16V,CL05B104KO5NNNC,C1525,0402,SMT,https://jlcpcb.com/partdetail/C1525
+C3,100nF/16V,CL05B104KO5NNNC,C1525,0402,SMT,https://jlcpcb.com/partdetail/C1525
+C4,100nF/50V,CC0603KRX7R9BB104,C14663,0603,SMT,https://jlcpcb.com/partdetail/C14663
+C5,100nF/16V,CL05B104KO5NNNC,C1525,0402,SMT,https://jlcpcb.com/partdetail/C1525
+C6,10uf/50V,CL21A106KBYQNNE,C2932476,0805,SMT,https://jlcpcb.com/partdetail/C2932476
+C7,10uf/50V,CL21A106KBYQNNE,C2932476,0805,SMT,https://jlcpcb.com/partdetail/C2932476
+C8,100nF/16V,CL05B104KO5NNNC,C1525,0402,SMT,https://jlcpcb.com/partdetail/C1525
+C9,22uf/16V,CL21A226MOQNNNE,C98190,0805,SMT,https://jlcpcb.com/partdetail/C98190
+D1,LMBR140ET1G,LMBR140ET1G,C172430,SOD-323HE,SMT,https://jlcpcb.com/partdetail/C172430
+D2,LMBR140ET1G,LMBR140ET1G,C172430,SOD-323HE,SMT,https://jlcpcb.com/partdetail/C172430
+J3,KF128-2.54-9P,KF128-2.54-9P,C474927,THT 9P 2.54mm,Through-hole,https://jlcpcb.com/partdetail/C474927
+J4,KF128-2.54-4P,KF128-2.54-4P,C474922,THT 4P 2.54mm,Through-hole,https://jlcpcb.com/partdetail/C474922
+J5,BM05B-SRSS-TB(LF)(SN),BM05B-SRSS-TB(LF)(SN),C160391,JST SH 5P 1mm,SMT,https://jlcpcb.com/partdetail/C160391
+L1,CR5040-4R7M,CR5040-4R7M,C520348,SMD 5x5mm,SMT,https://jlcpcb.com/partdetail/C520348
+R30,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+R31,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+R32,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+R33,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+R34,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+R35,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+R36,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+R37,33R,0603WAF330JT5E,C23140,0603,SMT,https://jlcpcb.com/partdetail/C23140
+SW1,PROG BUTTON,SKRPACE010,C139797,SMD 4.2x3.2mm,SMT,https://jlcpcb.com/partdetail/C139797
+U2,SN74LV8T245PWR,SN74LV8T245PWR,C20345798,TSSOP-20,SMT,https://jlcpcb.com/partdetail/C20345798
+U3,ADUM1201ARZ-RL7,ADUM1201ARZ-RL7,C9669,SOIC-8,SMT,https://jlcpcb.com/partdetail/C9669
+U5,AP63205WU-7,AP63205WU-7,C2071056,TSOT-26,SMT,https://jlcpcb.com/partdetail/C2071056

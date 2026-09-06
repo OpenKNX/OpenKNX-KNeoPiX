@@ -1,0 +1,8 @@
+(version 1)
+# Existing alternative KNX connector positions and their paired 243-131 retainers.
+# J1 and J2 are alternative connector placements; the retaining hardware nests in the connector assembly.
+# This exception affects only the five existing mechanical courtyard pairs, never copper clearance.
+(rule "Existing KNX connector and retaining hardware"
+ (condition "(A.Reference == 'J1' && (B.Reference == 'J2' || B.Reference == 'H1' || B.Reference == 'H2')) || (A.Reference == 'J2' && (B.Reference == 'J1' || B.Reference == 'H1' || B.Reference == 'H2')) || ((A.Reference == 'H1' || A.Reference == 'H2') && (B.Reference == 'J1' || B.Reference == 'J2'))")
+ (constraint courtyard_clearance (min 0mm))
+ (severity exclusion))

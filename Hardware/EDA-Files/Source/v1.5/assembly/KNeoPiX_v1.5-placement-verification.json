@@ -1,0 +1,254 @@
+[
+  {
+    "reference": "C2",
+    "code": "C1525",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 0.05999999999999517,
+    "pin_1_x_mm": 58.5,
+    "pin_1_y_mm": -51.48
+  },
+  {
+    "reference": "L1",
+    "code": "C520348",
+    "kicad_rotation": -90.0,
+    "supplier_aligned_rotation": 270,
+    "pad_fit_rms_mm": 0.0,
+    "pin_1_x_mm": 66.04,
+    "pin_1_y_mm": -61.17
+  },
+  {
+    "reference": "C5",
+    "code": "C1525",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 0.05999999999999872,
+    "pin_1_x_mm": 69.0,
+    "pin_1_y_mm": -57.54
+  },
+  {
+    "reference": "C10",
+    "code": "C98190",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 0.04999999999999716,
+    "pin_1_x_mm": 59.74,
+    "pin_1_y_mm": -48.06
+  },
+  {
+    "reference": "C3",
+    "code": "C1525",
+    "kicad_rotation": -90.0,
+    "supplier_aligned_rotation": 270,
+    "pad_fit_rms_mm": 0.05999999999999872,
+    "pin_1_x_mm": 57.404,
+    "pin_1_y_mm": -49.562
+  },
+  {
+    "reference": "C6",
+    "code": "C2932476",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 0.04999999999999716,
+    "pin_1_x_mm": 66.01,
+    "pin_1_y_mm": -48.06
+  },
+  {
+    "reference": "C7",
+    "code": "C2932476",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 0.04999999999999716,
+    "pin_1_x_mm": 64.01,
+    "pin_1_y_mm": -48.06
+  },
+  {
+    "reference": "C9",
+    "code": "C98190",
+    "kicad_rotation": -90.0,
+    "supplier_aligned_rotation": 270,
+    "pad_fit_rms_mm": 0.04999999999999716,
+    "pin_1_x_mm": 61.9,
+    "pin_1_y_mm": -46.16
+  },
+  {
+    "reference": "J4",
+    "code": "C474922",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.0,
+    "pin_1_x_mm": 63.6814,
+    "pin_1_y_mm": -71.5934
+  },
+  {
+    "reference": "D1",
+    "code": "C172430",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.23000000000000398,
+    "pin_1_x_mm": 69.13,
+    "pin_1_y_mm": -63.19
+  },
+  {
+    "reference": "J3",
+    "code": "C474927",
+    "kicad_rotation": 180.0,
+    "supplier_aligned_rotation": 180,
+    "pad_fit_rms_mm": 9.76547583684744e-15,
+    "pin_1_x_mm": 70.7864,
+    "pin_1_y_mm": -41.7534
+  },
+  {
+    "reference": "SW1",
+    "code": "C139797",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 1.1234667099445444e-14,
+    "pin_1_x_mm": 69.94,
+    "pin_1_y_mm": -61.3
+  },
+  {
+    "reference": "J5",
+    "code": "C160391",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 180,
+    "pad_fit_rms_mm": 0.0,
+    "pin_1_x_mm": 66.1414,
+    "pin_1_y_mm": -67.61
+  },
+  {
+    "reference": "U2",
+    "code": "C20345798",
+    "kicad_rotation": 180.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 0.008958236433584798,
+    "pin_1_x_mm": 57.8625,
+    "pin_1_y_mm": -60.325
+  },
+  {
+    "reference": "U3",
+    "code": "C9669",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.12509996003197155,
+    "pin_1_x_mm": 52.3114,
+    "pin_1_y_mm": -51.5684
+  },
+  {
+    "reference": "C4",
+    "code": "C14663",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07499999999999574,
+    "pin_1_x_mm": 51.875,
+    "pin_1_y_mm": -61.9
+  },
+  {
+    "reference": "C8",
+    "code": "C1525",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.05999999999999517,
+    "pin_1_x_mm": 69.42,
+    "pin_1_y_mm": -45.6
+  },
+  {
+    "reference": "C1",
+    "code": "C1525",
+    "kicad_rotation": 90.0,
+    "supplier_aligned_rotation": 90,
+    "pad_fit_rms_mm": 0.05999999999999872,
+    "pin_1_x_mm": 59.7,
+    "pin_1_y_mm": -50.28
+  },
+  {
+    "reference": "D2",
+    "code": "C172430",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.23000000000000398,
+    "pin_1_x_mm": 64.46,
+    "pin_1_y_mm": -63.19
+  },
+  {
+    "reference": "U5",
+    "code": "C2071056",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 5.0242958677880805e-15,
+    "pin_1_x_mm": 69.32,
+    "pin_1_y_mm": -49.22
+  },
+  {
+    "reference": "R30",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07499999999999929,
+    "pin_1_x_mm": 54.875,
+    "pin_1_y_mm": -61.9
+  },
+  {
+    "reference": "R31",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07500000000000284,
+    "pin_1_x_mm": 57.925,
+    "pin_1_y_mm": -61.9
+  },
+  {
+    "reference": "R32",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07499999999999929,
+    "pin_1_x_mm": 51.825,
+    "pin_1_y_mm": -63.55
+  },
+  {
+    "reference": "R33",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07499999999999929,
+    "pin_1_x_mm": 54.875,
+    "pin_1_y_mm": -63.55
+  },
+  {
+    "reference": "R34",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07500000000000284,
+    "pin_1_x_mm": 57.925,
+    "pin_1_y_mm": -63.55
+  },
+  {
+    "reference": "R35",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07500000000000284,
+    "pin_1_x_mm": 59.675,
+    "pin_1_y_mm": -52.9
+  },
+  {
+    "reference": "R36",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07500000000000284,
+    "pin_1_x_mm": 59.675,
+    "pin_1_y_mm": -54.5
+  },
+  {
+    "reference": "R37",
+    "code": "C23140",
+    "kicad_rotation": 0.0,
+    "supplier_aligned_rotation": 0,
+    "pad_fit_rms_mm": 0.07500000000000284,
+    "pin_1_x_mm": 59.675,
+    "pin_1_y_mm": -56.1
+  }
+]
