@@ -5955,7 +5955,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:EXBD10C103J"
+		(symbol "easyeda2kicad:EXBD10C472J"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5971,7 +5971,7 @@
 					)
 				)
 			)
-			(property "Value" "EXBD10C103J"
+			(property "Value" "EXBD10C472J"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5992,7 +5992,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_PANASONIC-EXBD10C103J_C278696.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_PANASONIC-EXBD10C472J_C2654036.html"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6025,7 +6025,7 @@
 					)
 				)
 			)
-			(property "MPN" "EXBD10C103J"
+			(property "MPN" "EXBD10C472J"
 				(at 0 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6036,7 +6036,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C278696"
+			(property "LCSC Part" "C2654036"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6058,7 +6058,7 @@
 					)
 				)
 			)
-			(symbol "EXBD10C103J_0_1"
+			(symbol "EXBD10C472J_0_1"
 				(rectangle
 					(start -6.35 5.08)
 					(end 6.35 -5.08)
@@ -13340,7 +13340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:EXBD10C103J")
+		(lib_id "easyeda2kicad:EXBD10C472J")
 		(at 279.4 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -13361,7 +13361,7 @@
 				)
 			)
 		)
-		(property "Value" "EXBD10C103J"
+		(property "Value" "EXBD10C472J"
 			(at 293.37 39.2998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13382,7 +13382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_PANASONIC-EXBD10C103J_C278696.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_PANASONIC-EXBD10C472J_C2654036.html"
 			(at 279.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13415,7 +13415,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXBD10C103J"
+		(property "MPN" "EXBD10C472J"
 			(at 279.4 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13426,7 +13426,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C278696"
+		(property "LCSC Part" "C2654036"
 			(at 279.4 71.12 0)
 			(hide yes)
 			(show_name no)

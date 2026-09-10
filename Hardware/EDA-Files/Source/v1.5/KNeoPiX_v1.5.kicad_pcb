@@ -5283,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Value" "EXBD10C103J"
+		(property "Value" "EXBD10C472J"
 			(at 0 4.8 0)
 			(layer "F.Fab")
 			(uuid "b158f88e-6b71-4cfb-872b-319a9972fc72")
@@ -5294,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_PANASONIC-EXBD10C103J_C278696.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Resistor-Networks-Arrays_PANASONIC-EXBD10C472J_C2654036.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5316,7 +5316,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C278696"
+		(property "LCSC Part" "C2654036"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5340,7 +5340,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXBD10C103J"
+		(property "MPN" "EXBD10C472J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
